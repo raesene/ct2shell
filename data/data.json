@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T13:30:19Z",
+ "generated_at": "2026-11-19T13:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 31928,
-  "last_log_update": "2026-11-19T13:30:19.64870425Z",
+  "total_lag": 152141,
+  "last_log_update": "2026-11-19T13:45:09.639200578Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2098,6 +2098,26 @@
    "registrar": "GoDaddy.com, LLC",
    "crtsh_cert_count": 73,
    "crtsh_earliest_not_before": "2018-04-12T20:27:07Z",
+   "verdict": "existing"
+  },
+  {
+   "domain": "2root.net",
+   "label": "2root",
+   "matched_suffix": "2root",
+   "public_suffix": "net",
+   "hosted": false,
+   "first_seen": "2026-11-19T13:27:59.570815011Z",
+   "names": [
+    "*.2root.net",
+    "2root.net"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.472815011,
+   "registered_at": "2005-10-01T04:10:05Z",
+   "registrar": "Cloudflare, Inc.",
+   "crtsh_cert_count": 730,
+   "crtsh_earliest_not_before": "2014-01-14T09:08:59Z",
    "verdict": "existing"
   }
  ]
