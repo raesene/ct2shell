@@ -31,10 +31,10 @@
     <h1><span>New *2shell domains, read straight off the cert logs.</span></h1>
   </div>
   <nav class="corner tr" aria-label="Sections">
-    <a href="#log">Log</a><a href="#markers">Markers</a><a href="#bursts">Bursts</a><a href="#all">All</a><a href="#how">How</a>
+    <a href="#latest">Latest</a><a href="#markers">Markers</a><a href="#bursts">Bursts</a><a href="#all">All</a><a href="#how">How</a>
   </nav>
   <div class="corner bl">
-    <a class="button" href="#log">Open the night log</a>
+    <a class="button" href="#latest">See the latest domains</a>
     <p class="hint">{{.Total}} domains since {{if not .D.Monitor.Since.IsZero}}{{ts .D.Monitor.Since}}{{else}}start{{end}}.</p>
   </div>
   <ol class="corner br mini-log" aria-label="Latest detections">
@@ -45,9 +45,9 @@
 
 <main>
 
-<section id="log" class="wrap">
-  <h2>Night log</h2>
-  <p class="lede">The last detections, oldest first. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
+<section id="latest" class="wrap">
+  <h2>Latest domains</h2>
+  <p class="lede">The most recent finds, with the newest at the bottom. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
   <ol class="log">
     {{range .Log}}{{$m := marker .Verdict}}
     <li class="row"><time class="t" datetime="{{iso .FirstSeen}}">{{hm .FirstSeen}}</time><span class="pinno">3</span><span class="tag">{{.MatchedSuffix}}</span><b class="m {{$m.Class}}">[{{$m.Word}}]</b><span class="say">{{sentence .}}</span></li>
