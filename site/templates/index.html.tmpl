@@ -47,12 +47,12 @@
 
 <section id="latest" class="wrap">
   <h2>Latest domains</h2>
-  <p class="lede">The most recent finds, with the newest at the bottom. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
+  <p class="lede">The most recent finds, newest first. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
   <ol class="log">
+    <li class="row live"><span class="t prompt">&gt;</span><span class="pinno">1</span><span class="tag">watch</span><b class="m ok" data-status-marker>[OK]</b><span class="say" data-status-text>Watching {{.D.Monitor.ActiveLogs}} logs, {{comma .D.Monitor.TotalLag}} entries behind. Data published {{.Generated}}.</span></li>
     {{range .Log}}{{$m := marker .Verdict}}
     <li class="row"><time class="t" datetime="{{iso .FirstSeen}}">{{hm .FirstSeen}}</time><span class="pinno">3</span><span class="tag">{{.MatchedSuffix}}</span><b class="m {{$m.Class}}">[{{$m.Word}}]</b><span class="say">{{sentence .}}</span></li>
     {{end}}
-    <li class="row live"><span class="t prompt">&gt;</span><span class="pinno">1</span><span class="tag">watch</span><b class="m ok" data-status-marker>[OK]</b><span class="say" data-status-text>Watching {{.D.Monitor.ActiveLogs}} logs, {{comma .D.Monitor.TotalLag}} entries behind. Data published {{.Generated}}.</span></li>
   </ol>
 </section>
 

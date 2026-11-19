@@ -44,8 +44,8 @@ type view struct {
 	D         *publish.Data
 	Counts    map[string]int
 	Total     int
-	Log       []publish.Record // last entries, oldest first
-	Corner    []publish.Record // last three
+	Log       []publish.Record // most recent entries, newest first
+	Corner    []publish.Record // most recent three, newest first
 	Fresh     []publish.Record // new / likely_new / dormant, newest first
 	Groups    []publish.Group
 	All       []publish.Record // newest first
@@ -74,8 +74,8 @@ func main() {
 		v.Counts[r.Verdict]++
 	}
 	recs := d.Records // oldest first
-	v.Log = recs[max(0, len(recs)-11):]
-	v.Corner = recs[max(0, len(recs)-3):]
+	v.Log = newestFirst(recs, 11)
+	v.Corner = newestFirst(recs, 3)
 	for i := len(recs) - 1; i >= 0; i-- {
 		r := recs[i]
 		v.All = append(v.All, r)
@@ -186,6 +186,16 @@ func sentence(r publish.Record) string {
 	}
 	b.WriteString(".")
 	return b.String()
+}
+
+// newestFirst returns the last n records (recs is sorted oldest first) in
+// reverse order.
+func newestFirst(recs []publish.Record, n int) []publish.Record {
+	out := make([]publish.Record, 0, n)
+	for i := len(recs) - 1; i >= 0 && len(out) < n; i-- {
+		out = append(out, recs[i])
+	}
+	return out
 }
 
 func groupNames(g publish.Group, n int) []string {
