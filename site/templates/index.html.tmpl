@@ -22,7 +22,7 @@
     <li class="pin" style="left:30%;top:52%" data-side="right"><span class="sq ok">2</span><span class="pin-label"><b class="m ok">[OK]</b> every entry prefiltered</span></li>
     <li class="pin" style="left:42%;top:27%" data-side="right"><span class="sq ok">3</span><span class="pin-label"><b class="m ok">[OK]</b> {{suffixes .D.Suffixes}}</span></li>
     <li class="pin" style="left:59%;top:47%" data-side="right"><span class="sq info">4</span><span class="pin-label"><b class="m info">[SYNC]</b> RDAP + crt.sh lookups</span></li>
-    <li class="pin" style="left:52%;top:67%" data-side="right"><span class="sq warn">5</span><span class="pin-label"><b class="m warn">[WARN]</b> {{len .Groups}} bulk bursts flagged</span></li>
+    <li class="pin" style="left:52%;top:67%" data-side="right"><span class="sq warn">5</span><span class="pin-label"><b class="m warn">[WARN]</b> {{len .Groups}} bulk {{if eq (len .Groups) 1}}burst{{else}}bursts{{end}} flagged</span></li>
     <li class="pin" style="left:24%;top:30%" data-side="right"><span class="sq ok" data-status-sq>6</span><span class="pin-label"><b class="m ok" data-status-marker>[OK]</b> published <span data-ago="{{iso .D.GeneratedAt}}">{{.Generated}}</span></span></li>
   </ol>
 
