@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T11:08:00Z",
+ "generated_at": "2026-11-19T12:59:53Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 520195,
-  "last_log_update": "2026-11-19T11:07:59.663133904Z",
+  "total_lag": 908378,
+  "last_log_update": "2026-11-19T12:59:49.594310445Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2079,6 +2079,26 @@
    "registered_at": "2026-11-19T10:58:28Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "galaxys4root.com",
+   "label": "galaxys4root",
+   "matched_suffix": "4root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T12:42:49.367078505Z",
+   "names": [
+    "*.galaxys4root.com",
+    "galaxys4root.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.6690785049999999,
+   "registered_at": "2012-05-03T18:19:37Z",
+   "registrar": "GoDaddy.com, LLC",
+   "crtsh_cert_count": 73,
+   "crtsh_earliest_not_before": "2018-04-12T20:27:07Z",
+   "verdict": "existing"
   }
  ]
 }
