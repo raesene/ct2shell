@@ -2,9 +2,10 @@
 Description=Publish ct2shell results every 15 minutes
 
 [Timer]
-OnBootSec=2min
-OnUnitActiveSec=15min
-RandomizedDelaySec=30s
+# On the quarter-hour. OnUnitActiveSec drifts by each run's duration plus
+# the randomised delay, which gave ~16-minute spacing.
+OnCalendar=*:00/15
+RandomizedDelaySec=20s
 Persistent=true
 
 [Install]
