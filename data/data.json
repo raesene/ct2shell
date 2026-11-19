@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:03:47Z",
+ "generated_at": "2026-11-19T10:20:00Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1014784,
-  "last_log_update": "2026-11-19T10:03:39.585457981Z",
+  "total_lag": 518424,
+  "last_log_update": "2026-11-19T10:19:59.646125444Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -1431,6 +1431,195 @@
    "verdict": "bulk",
    "base_verdict": "new",
    "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "samba2shell.com",
+   "label": "samba2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:09:56.916780592Z",
+   "names": [
+    "*.samba2shell.com",
+    "samba2shell.com"
+   ],
+   "log": "IPng Networks Gouda2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 1.130780592,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 27,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "podman2shell.com",
+   "label": "podman2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:09:58.347065916Z",
+   "names": [
+    "*.podman2shell.com",
+    "podman2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.475065916,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 27,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "postgresql2shell.com",
+   "label": "postgresql2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:10:00.078419823Z",
+   "names": [
+    "*.postgresql2shell.com",
+    "postgresql2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.8304198229999997,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 27,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "rust2root.com",
+   "label": "rust2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:10:01.17450471Z",
+   "names": [
+    "*.rust2root.com",
+    "rust2root.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.64350471,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 27,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "react2root.com",
+   "label": "react2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:14:33.833031784Z",
+   "names": [
+    "*.react2root.com",
+    "react2root.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.301031784,
+   "registered_at": "2026-11-19T01:51:34Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 32,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "redis2shell.com",
+   "label": "redis2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:14:33.833217286Z",
+   "names": [
+    "*.redis2shell.com",
+    "redis2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 1.299217286,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 32,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "postgres2shell.com",
+   "label": "postgres2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:14:34.471481578Z",
+   "names": [
+    "*.postgres2shell.com",
+    "postgres2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.983481578,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 32,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "postgresql2root.com",
+   "label": "postgresql2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:14:34.471989755Z",
+   "names": [
+    "*.postgresql2root.com",
+    "postgresql2root.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 1.679989755,
+   "registered_at": "2026-11-19T01:51:34Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 32,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "prestashop2shell.com",
+   "label": "prestashop2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:14:34.472219189Z",
+   "names": [
+    "*.prestashop2shell.com",
+    "prestashop2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 1.207219189,
+   "registered_at": "2026-11-19T01:51:33Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 32,
    "bulk_registrar": "Name.com, Inc."
   }
  ]
