@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:30:19Z",
+ "generated_at": "2026-11-19T14:46:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 48294,
-  "last_log_update": "2026-11-19T14:30:09.61978279Z",
+  "total_lag": 116839,
+  "last_log_update": "2026-11-19T14:46:09.664981004Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2119,6 +2119,24 @@
    "crtsh_cert_count": 730,
    "crtsh_earliest_not_before": "2014-01-14T09:08:59Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "usb2shell.com",
+   "label": "usb2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T14:36:55.679079221Z",
+   "names": [
+    "*.usb2shell.com",
+    "usb2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 1.981079221,
+   "registered_at": "2026-11-19T14:34:45Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
