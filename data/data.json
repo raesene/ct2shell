@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T15:30:19Z",
+ "generated_at": "2026-11-19T15:46:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 41893,
-  "last_log_update": "2026-11-19T15:30:09.532135065Z",
+  "total_lag": 86036,
+  "last_log_update": "2026-11-19T15:46:09.541830453Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2153,6 +2153,24 @@
    "issuer": "Let's Encrypt YE1",
    "detection_delay_sec": 2.151326963,
    "registered_at": "2026-11-19T14:18:40Z",
+   "registrar": "Spaceship, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "2shell.cc",
+   "label": "2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "cc",
+   "hosted": false,
+   "first_seen": "2026-11-19T15:36:42.81395549Z",
+   "names": [
+    "*.2shell.cc",
+    "2shell.cc"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.28295549,
+   "registered_at": "2026-11-19T15:28:10Z",
    "registrar": "Spaceship, Inc.",
    "verdict": "new"
   }
