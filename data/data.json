@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:00:35Z",
+ "generated_at": "2026-11-19T10:03:47Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1069068,
-  "last_log_update": "2026-11-19T10:00:33.130204028Z",
+  "total_lag": 1014784,
+  "last_log_update": "2026-11-19T10:03:39.585457981Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -1137,6 +1137,300 @@
    "verdict": "bulk",
    "base_verdict": "new",
    "bulk_group_size": 30,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "mssql2root.com",
+   "label": "mssql2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T09:57:59.807040853Z",
+   "names": [
+    "*.mssql2root.com",
+    "mssql2root.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.089040853,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "ollama2root.com",
+   "label": "ollama2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:33.129970403Z",
+   "names": [
+    "*.ollama2root.com",
+    "ollama2root.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.461970403,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "nextjs2root.com",
+   "label": "nextjs2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:34.022127833Z",
+   "names": [
+    "*.nextjs2root.com",
+    "nextjs2root.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.567127833,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "openssl2shell.com",
+   "label": "openssl2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:34.508982176Z",
+   "names": [
+    "*.openssl2shell.com",
+    "openssl2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.075982176,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "openssl2root.com",
+   "label": "openssl2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:34.653824424Z",
+   "names": [
+    "*.openssl2root.com",
+    "openssl2root.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 1.600824424,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "nginx4root.com",
+   "label": "nginx4root",
+   "matched_suffix": "4root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:34.964068086Z",
+   "names": [
+    "*.nginx4root.com",
+    "nginx4root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 1.634068086,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "perl2root.com",
+   "label": "perl2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:35.835548647Z",
+   "names": [
+    "*.perl2root.com",
+    "perl2root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.410548647,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "nodered2root.com",
+   "label": "nodered2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:37.267395481Z",
+   "names": [
+    "*.nodered2root.com",
+    "nodered2root.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 3.091395481,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "nomad2root.com",
+   "label": "nomad2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:37.267542361Z",
+   "names": [
+    "*.nomad2root.com",
+    "nomad2root.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.922542361,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "openssh2root.com",
+   "label": "openssh2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:37.412018853Z",
+   "names": [
+    "*.openssh2root.com",
+    "openssh2root.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 1.914018853,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "ollama2shell.com",
+   "label": "ollama2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:37.982124879Z",
+   "names": [
+    "*.ollama2shell.com",
+    "ollama2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.451124879,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "nodejs2root.com",
+   "label": "nodejs2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:38.436399826Z",
+   "names": [
+    "*.nodejs2root.com",
+    "nodejs2root.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 3.464399826,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "mysql2root.com",
+   "label": "mysql2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:38.436547056Z",
+   "names": [
+    "*.mysql2root.com",
+    "mysql2root.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.333547056,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "openresty2shell.com",
+   "label": "openresty2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:00:38.664401888Z",
+   "names": [
+    "*.openresty2shell.com",
+    "openresty2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 5.739401888,
+   "registered_at": "2026-11-19T01:42:54Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 40,
    "bulk_registrar": "Name.com, Inc."
   }
  ]
