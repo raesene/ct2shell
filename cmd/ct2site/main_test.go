@@ -24,3 +24,17 @@ func TestNewestFirst(t *testing.T) {
 		t.Fatalf("empty input: %v", got)
 	}
 }
+
+func TestRenderHealth(t *testing.T) {
+	now := time.Date(2026, 11, 19, 12, 0, 0, 0, time.UTC)
+	ok := &publish.Data{GeneratedAt: now, Monitor: publish.Monitor{LastLogUpdate: now.Add(-5 * time.Second)}}
+	down := &publish.Data{GeneratedAt: now, Monitor: publish.Monitor{LastLogUpdate: now.Add(-3 * time.Hour)}}
+	for _, c := range []struct {
+		d    *publish.Data
+		want bool
+	}{{ok, true}, {down, false}, {&publish.Data{GeneratedAt: now}, false}} {
+		if got := healthy(c.d); got != c.want {
+			t.Errorf("healthy(%v) = %v, want %v", c.d.Monitor.LastLogUpdate, got, c.want)
+		}
+	}
+}

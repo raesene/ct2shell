@@ -87,12 +87,15 @@ design language from Katagami.
   CT ingest is ~100–150 GB/day, so the monitor isn't run there.
 - `deploy/publish.sh` (run by `ct2shell-publish.timer` every 15 min) converts the
   private `matches.jsonl` and `state.json` into the public `data/data.json` with
-  `cmd/ct2export`, and pushes it to `main` using a repo deploy key. It commits only
-  when the records change, plus a heartbeat every 6h.
+  `cmd/ct2export`, and pushes it to `main` using a repo deploy key. It commits on
+  every run, as `data: …` when there are new domains and `check: …` when there
+  aren't, so the page's "last checked" time stays current. Set
+  `CT2SHELL_HEARTBEAT=1h` in the publish service's environment to cut check-only commits.
 - `.github/workflows/pages.yml` runs on every push: it renders the site with
   `cmd/ct2site` and deploys it to Pages. The page reads fine without JavaScript.
   `site/app.js` moves the lamp, filters the table, reloads itself when newer data
-  is published, and flags the monitor `[WARN]`/`[ERR]` if publishing stops.
+  is published, and flags `[WARN]` after 45 min without a check-in and `[ERR]`
+  after 2h. A check made while the monitor had stopped reading logs renders as `[ERR]`.
 
 Preview locally: `go run ./cmd/ct2site -data data/data.json -out _site` and serve `_site/`.
 

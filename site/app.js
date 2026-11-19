@@ -30,14 +30,19 @@
     if (a) el.textContent = a;
   });
 
-  // Monitor health: the publisher rewrites data at least every 6h.
+  // Monitor health. The publisher checks in every 15 minutes, so a check
+  // older than 45 minutes means it is late and older than 2 hours means it
+  // has stopped. A page rendered with health "down" (monitor not reading
+  // logs) already says so and is left alone.
   const generated = document.querySelector('meta[name="ct2-generated"]')?.content;
+  const health = document.querySelector('meta[name="ct2-health"]')?.content;
   const paintStatus = () => {
-    if (!generated) return;
-    const hours = (Date.now() - Date.parse(generated)) / 3.6e6;
+    if (!generated || health === "down") return;
+    const mins = (Date.now() - Date.parse(generated)) / 6e4;
+    const age = mins < 120 ? `${Math.round(mins)} min` : `${Math.round(mins / 60)}h`;
     let word = "[OK]", cls = "ok", text = null;
-    if (hours > 13) { word = "[ERR]"; cls = "err"; text = `No publish for ${Math.round(hours)}h. The monitor may be down.`; }
-    else if (hours > 7) { word = "[WARN]"; cls = "warn"; text = `Last publish ${Math.round(hours)}h ago, later than expected.`; }
+    if (mins > 120) { word = "[ERR]"; cls = "err"; text = `No check-in for ${age}. The monitor or publisher may be down.`; }
+    else if (mins > 45) { word = "[WARN]"; cls = "warn"; text = `Last check-in ${age} ago, later than the usual 15 minutes.`; }
     document.querySelectorAll("[data-status-marker]").forEach((el) => {
       el.textContent = word; el.className = "m " + cls;
     });

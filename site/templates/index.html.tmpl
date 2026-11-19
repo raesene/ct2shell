@@ -6,6 +6,7 @@
 <title>ct2shell: new *2shell / *4shell / *2root / *4root domains from CT logs</title>
 <meta name="description" content="Newly registered vulnerability-branded domains (log4shell, react2shell style) spotted in Certificate Transparency logs.">
 <meta name="ct2-generated" content="{{iso .D.GeneratedAt}}">
+<meta name="ct2-health" content="{{if .Healthy}}ok{{else}}down{{end}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap">
@@ -23,7 +24,7 @@
     <li class="pin" style="left:42%;top:27%" data-side="right"><span class="sq ok">3</span><span class="pin-label"><b class="m ok">[OK]</b> {{suffixes .D.Suffixes}}</span></li>
     <li class="pin" style="left:59%;top:47%" data-side="right"><span class="sq info">4</span><span class="pin-label"><b class="m info">[SYNC]</b> RDAP + crt.sh lookups</span></li>
     <li class="pin" style="left:52%;top:67%" data-side="right"><span class="sq warn">5</span><span class="pin-label"><b class="m warn">[WARN]</b> {{len .Groups}} bulk {{if eq (len .Groups) 1}}burst{{else}}bursts{{end}} flagged</span></li>
-    <li class="pin" style="left:24%;top:30%" data-side="right"><span class="sq ok" data-status-sq>6</span><span class="pin-label"><b class="m ok" data-status-marker>[OK]</b> published <span data-ago="{{iso .D.GeneratedAt}}">{{.Generated}}</span></span></li>
+    <li class="pin" style="left:24%;top:30%" data-side="right">{{if .Healthy}}<span class="sq ok" data-status-sq>6</span><span class="pin-label"><b class="m ok" data-status-marker>[OK]</b> checked <span data-ago="{{iso .D.GeneratedAt}}">{{.Generated}}</span></span>{{else}}<span class="sq err" data-status-sq>6</span><span class="pin-label"><b class="m err" data-status-marker>[ERR]</b> monitor not reading logs</span>{{end}}</li>
   </ol>
 
   <div class="corner tl">
@@ -49,7 +50,7 @@
   <h2>Latest domains</h2>
   <p class="lede">The most recent finds, newest first. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
   <ol class="log">
-    <li class="row live"><span class="t prompt">&gt;</span><span class="pinno">1</span><span class="tag">watch</span><b class="m ok" data-status-marker>[OK]</b><span class="say" data-status-text>Watching {{.D.Monitor.ActiveLogs}} logs, {{comma .D.Monitor.TotalLag}} entries behind. Data published {{.Generated}}.</span></li>
+    <li class="row live"><span class="t prompt">&gt;</span><span class="pinno">1</span><span class="tag">watch</span>{{if .Healthy}}<b class="m ok" data-status-marker>[OK]</b><span class="say" data-status-text>Watching {{.D.Monitor.ActiveLogs}} logs, {{comma .D.Monitor.TotalLag}} entries behind. Last checked {{.Generated}}{{with .LastFind}}; last new domain {{ts .}}{{end}}.</span>{{else}}<b class="m err" data-status-marker>[ERR]</b><span class="say" data-status-text>The monitor stopped reading logs{{if not .D.Monitor.LastLogUpdate.IsZero}} at {{ts .D.Monitor.LastLogUpdate}}{{end}}. Results may be missing since then. Checked {{.Generated}}.</span>{{end}}</li>
     {{range .Log}}{{$m := marker .Verdict}}
     <li class="row"><time class="t" datetime="{{iso .FirstSeen}}">{{hm .FirstSeen}}</time><span class="pinno">3</span><span class="tag">{{.MatchedSuffix}}</span><b class="m {{$m.Class}}">[{{$m.Word}}]</b><span class="say">{{sentence .}}</span></li>
     {{end}}
@@ -126,7 +127,7 @@
     <li><span class="sq ok">3</span><p>The label before the public suffix must end in {{suffixes .D.Suffixes}}. Each domain is recorded once.</p></li>
     <li><span class="sq info">4</span><p>RDAP gives the registration date and registrar; crt.sh shows whether the domain had certificates before.</p></li>
     <li><span class="sq warn">5</span><p>Matches from one registrar within 30 minutes of each other are grouped as a burst.</p></li>
-    <li><span class="sq ok">6</span><p>The results are published here every 15 minutes, and an open page reloads itself when new data lands.</p></li>
+    <li><span class="sq ok">6</span><p>Every 15 minutes the results are checked and published here, even when nothing new was found, and an open page reloads itself when they land.</p></li>
   </ol>
 </section>
 
@@ -142,7 +143,7 @@
 </main>
 
 <footer class="wrap foot">
-  <p><span class="m muted">ct2shell</span> data generated {{.Generated}} from CT logs, RDAP and crt.sh. <a href="data.json">data.json</a> · <a href="https://github.com/raesene/ct2shell">source</a></p>
+  <p><span class="m muted">ct2shell</span> last checked {{.Generated}}. Data from CT logs, RDAP and crt.sh. <a href="data.json">data.json</a> · <a href="https://github.com/raesene/ct2shell">source</a></p>
 </footer>
 
 <script src="app.js" defer></script>

@@ -1,7 +1,9 @@
 // Command ct2export converts the monitor's private files into the public
-// data.json consumed by the GitHub Pages site. It leaves the output file
-// untouched (exit 0, "unchanged") when the records are the same and the
-// existing file is younger than -heartbeat, so the publisher can skip a commit.
+// data.json consumed by the GitHub Pages site. Its first output word tells the
+// publisher what happened: "new" (records changed), "check" (no new records,
+// but the file was rewritten so the site's last-checked time moves on), or
+// "unchanged" (no new records and the existing file is younger than
+// -heartbeat, so nothing was written).
 package main
 
 import (
@@ -21,7 +23,7 @@ func main() {
 	statePath := flag.String("state", "state.json", "monitor state file")
 	out := flag.String("out", "data.json", "public data file to write")
 	suffixes := flag.String("suffixes", "4shell,2shell,2root,4root", "suffixes being monitored (for display)")
-	heartbeat := flag.Duration("heartbeat", 6*time.Hour, "rewrite even if unchanged once the existing file is this old")
+	heartbeat := flag.Duration("heartbeat", 0, "with no new records, only rewrite once the existing file is this old (0 = every run, so last-checked stays current)")
 	flag.Parse()
 
 	recs, err := publish.ReadMatches(*matches)
@@ -46,11 +48,15 @@ func main() {
 		d.Monitor.Since = recs[0].FirstSeen
 	}
 
+	status := "new"
 	if b, err := os.ReadFile(*out); err == nil {
 		var old publish.Data
-		if json.Unmarshal(b, &old) == nil && publish.SameContent(&old, d) && now.Sub(old.GeneratedAt) < *heartbeat {
-			fmt.Println("unchanged")
-			return
+		if json.Unmarshal(b, &old) == nil && publish.SameContent(&old, d) {
+			if now.Sub(old.GeneratedAt) < *heartbeat {
+				fmt.Println("unchanged")
+				return
+			}
+			status = "check"
 		}
 	}
 	b, err := json.MarshalIndent(d, "", " ")
@@ -64,7 +70,7 @@ func main() {
 	if err := os.Rename(tmp, *out); err != nil {
 		fail(err)
 	}
-	fmt.Printf("wrote %d records\n", len(recs))
+	fmt.Printf("%s %d records\n", status, len(recs))
 }
 
 func fail(err error) {

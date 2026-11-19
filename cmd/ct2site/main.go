@@ -50,7 +50,19 @@ type view struct {
 	Groups    []publish.Group
 	All       []publish.Record // newest first
 	Defs      []struct{ Verdict, Text string }
-	Generated string
+	Generated string // last check, formatted
+	// Healthy is false when the monitor had stopped advancing through the
+	// logs at check time (the publisher can run while the monitor is down).
+	Healthy  bool
+	LastFind *time.Time // newest record's first sighting
+}
+
+// monitorStale is how long the monitor may go without saving a log position
+// before a check reports it as down. Positions are saved every few seconds.
+const monitorStale = 10 * time.Minute
+
+func healthy(d *publish.Data) bool {
+	return !d.Monitor.LastLogUpdate.IsZero() && d.GeneratedAt.Sub(d.Monitor.LastLogUpdate) < monitorStale
 }
 
 func main() {
@@ -72,6 +84,11 @@ func main() {
 		Generated: d.GeneratedAt.UTC().Format("2006-01-02 15:04 UTC")}
 	for _, r := range d.Records {
 		v.Counts[r.Verdict]++
+	}
+	v.Healthy = healthy(d)
+	if n := len(d.Records); n > 0 {
+		t := d.Records[n-1].FirstSeen
+		v.LastFind = &t
 	}
 	recs := d.Records // oldest first
 	v.Log = newestFirst(recs, 11)
