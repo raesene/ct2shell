@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:45:19Z",
+ "generated_at": "2026-11-19T20:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 172701,
-  "last_log_update": "2026-11-19T19:45:09.62488772Z",
+  "total_lag": 942210,
+  "last_log_update": "2026-11-19T20:00:09.616317387Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2242,6 +2242,42 @@
    "detection_delay_sec": 1.418087376,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
+  },
+  {
+   "domain": "cmd2shell.com",
+   "label": "cmd2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T19:56:27.883124486Z",
+   "names": [
+    "*.cmd2shell.com",
+    "cmd2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.352124486,
+   "registered_at": "2026-11-19T19:54:17Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "powershell2shell.com",
+   "label": "powershell2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T19:56:39.488425497Z",
+   "names": [
+    "*.powershell2shell.com",
+    "powershell2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 4.143425497,
+   "registered_at": "2026-11-19T19:54:27Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
