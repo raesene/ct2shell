@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:52:00Z",
+ "generated_at": "2026-11-19T11:08:00Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1119879,
-  "last_log_update": "2026-11-19T10:51:59.654768344Z",
+  "total_lag": 520195,
+  "last_log_update": "2026-11-19T11:07:59.663133904Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2061,6 +2061,24 @@
    "base_verdict": "new",
    "bulk_group_size": 25,
    "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "tencent2shell.com",
+   "label": "tencent2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T11:00:39.82239286Z",
+   "names": [
+    "*.tencent2shell.com",
+    "tencent2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.7543928600000003,
+   "registered_at": "2026-11-19T10:58:28Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
