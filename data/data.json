@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T15:15:19Z",
+ "generated_at": "2026-11-19T15:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 163460,
-  "last_log_update": "2026-11-19T15:15:09.586355871Z",
+  "total_lag": 41893,
+  "last_log_update": "2026-11-19T15:30:09.532135065Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2136,6 +2136,24 @@
    "detection_delay_sec": 1.981079221,
    "registered_at": "2026-11-19T14:34:45Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "sleep2shell.com",
+   "label": "sleep2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T15:20:50.224326963Z",
+   "names": [
+    "*.sleep2shell.com",
+    "sleep2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.151326963,
+   "registered_at": "2026-11-19T14:18:40Z",
+   "registrar": "Spaceship, Inc.",
    "verdict": "new"
   }
  ]
