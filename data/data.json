@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T23:15:19Z",
+ "generated_at": "2026-11-19T23:30:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 175660,
-  "last_log_update": "2026-11-19T23:15:09.639209743Z",
+  "total_lag": 131885,
+  "last_log_update": "2026-11-19T23:30:09.424820778Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2277,6 +2277,23 @@
    "detection_delay_sec": 4.143425497,
    "registered_at": "2026-11-19T19:54:27Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "ssh2root.com",
+   "label": "ssh2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T23:22:09.11601728Z",
+   "names": [
+    "www.ssh2root.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.29001728,
+   "registered_at": "2026-11-18T14:22:18Z",
+   "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
  ]
