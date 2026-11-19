@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:36:00Z",
+ "generated_at": "2026-11-19T10:52:00Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 99918,
-  "last_log_update": "2026-11-19T10:35:59.587392546Z",
+  "total_lag": 1119879,
+  "last_log_update": "2026-11-19T10:51:59.654768344Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -1850,6 +1850,216 @@
    "verdict": "bulk",
    "base_verdict": "new",
    "bulk_group_size": 33,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "zookeeper2shell.com",
+   "label": "zookeeper2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:18.483169638Z",
+   "names": [
+    "*.zookeeper2shell.com",
+    "zookeeper2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 1.952169638,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "vue2root.com",
+   "label": "vue2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:18.803242815Z",
+   "names": [
+    "*.vue2root.com",
+    "vue2root.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.2722428150000002,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "weblogic2shell.com",
+   "label": "weblogic2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:18.803739034Z",
+   "names": [
+    "*.weblogic2shell.com",
+    "weblogic2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 1.272739034,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "traefik2shell.com",
+   "label": "traefik2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:19.307097076Z",
+   "names": [
+    "*.traefik2shell.com",
+    "traefik2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.281097076,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "varnish2shell.com",
+   "label": "varnish2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:19.307278732Z",
+   "names": [
+    "*.varnish2shell.com",
+    "varnish2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.527278732,
+   "registered_at": "2026-11-19T02:10:08Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "traefik2root.com",
+   "label": "traefik2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:19.307783192Z",
+   "names": [
+    "*.traefik2root.com",
+    "traefik2root.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 3.005783192,
+   "registered_at": "2026-11-19T02:10:08Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "windows2root.com",
+   "label": "windows2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:20.599573065Z",
+   "names": [
+    "*.windows2root.com",
+    "windows2root.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.658573065,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "websphere2root.com",
+   "label": "websphere2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:21.909893199Z",
+   "names": [
+    "*.websphere2root.com",
+    "websphere2root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 5.938893199,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "wildfly2shell.com",
+   "label": "wildfly2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:38:23.352407751Z",
+   "names": [
+    "*.wildfly2shell.com",
+    "wildfly2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 5.827407751,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 28,
+   "bulk_registrar": "Name.com, Inc."
+  },
+  {
+   "domain": "vault2shell.com",
+   "label": "vault2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T10:44:10.96109758Z",
+   "names": [
+    "*.vault2shell.com",
+    "vault2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 0.66209758,
+   "registered_at": "2026-11-19T02:10:09Z",
+   "registrar": "Name.com, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 25,
    "bulk_registrar": "Name.com, Inc."
   }
  ]
