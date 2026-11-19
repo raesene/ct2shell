@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:45:19Z",
+ "generated_at": "2026-11-19T18:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 136907,
-  "last_log_update": "2026-11-19T17:45:09.664100303Z",
+  "total_lag": 959034,
+  "last_log_update": "2026-11-19T18:00:09.661499317Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2207,6 +2207,24 @@
    "detection_delay_sec": 4.873364789,
    "registered_at": "2026-11-19T16:47:27Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "any2shell.xyz",
+   "label": "any2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "xyz",
+   "hosted": false,
+   "first_seen": "2026-11-19T17:53:58.858114549Z",
+   "names": [
+    "*.any2shell.xyz",
+    "any2shell.xyz"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.782114549,
+   "registered_at": "2026-11-19T17:25:01Z",
+   "registrar": "OVH sas",
    "verdict": "new"
   }
  ]
