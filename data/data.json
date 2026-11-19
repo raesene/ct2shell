@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:15:19Z",
+ "generated_at": "2026-11-19T16:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 130912,
-  "last_log_update": "2026-11-19T16:15:09.645602807Z",
+  "total_lag": 47824,
+  "last_log_update": "2026-11-19T16:30:09.62953593Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2172,6 +2172,23 @@
    "detection_delay_sec": 1.28295549,
    "registered_at": "2026-11-19T15:28:10Z",
    "registrar": "Spaceship, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "whatever2shell.com",
+   "label": "whatever2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-19T16:26:45.39696672Z",
+   "names": [
+    "whatever2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 5.56396672,
+   "registered_at": "2026-11-19T14:24:46Z",
+   "registrar": "eNom, LLC",
    "verdict": "new"
   }
  ]
