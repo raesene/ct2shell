@@ -1,0 +1,9 @@
+# Publishes data/data.json to GitHub. Triggered by ct2shell-publish.timer.
+# Needs a deploy key with write access at ~/.ssh/ct2shell_deploy.
+[Unit]
+Description=Publish ct2shell results to GitHub
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/ct2shell/publish.sh

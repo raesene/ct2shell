@@ -1,0 +1,22 @@
+# systemd user unit. Install:
+#   mkdir -p ~/.config/systemd/user ~/ct2shell/live
+#   cp deploy/ct2shell.service ~/.config/systemd/user/
+#   echo 'CT2SHELL_CONTACT=you@example.com' > ~/ct2shell/ct2shell.env
+#   systemctl --user daemon-reload && systemctl --user enable --now ct2shell
+#   sudo loginctl enable-linger $USER   # keep running after logout
+# Logs: journalctl --user -u ct2shell -f
+[Unit]
+Description=ct2shell CT log monitor
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/ct2shell/live
+EnvironmentFile=%h/ct2shell/ct2shell.env
+ExecStart=%h/ct2shell/ct2shell -state state.json -out matches.jsonl -stats 5m -contact ${CT2SHELL_CONTACT}
+Restart=always
+RestartSec=10
+# Allow time for the final state save on stop.
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target

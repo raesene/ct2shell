@@ -1,0 +1,7 @@
+/bin/
+/_site/
+/generated-images/
+# monitor runtime files (private state; only data/data.json is published)
+*.jsonl
+*state*.json
+*.env

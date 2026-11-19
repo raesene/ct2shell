@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ct2shell: new *2shell / *4shell / *2root / *4root domains from CT logs</title>
+<meta name="description" content="Newly registered vulnerability-branded domains (log4shell, react2shell style) spotted in Certificate Transparency logs.">
+<meta name="ct2-generated" content="{{iso .D.GeneratedAt}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="scene" id="top" aria-label="ct2shell monitor">
+  <div class="plate" aria-hidden="true"></div>
+  <div class="lamp" aria-hidden="true"></div>
+
+  <ol class="pins" aria-label="Pipeline">
+    <li class="pin" style="left:87%;top:40%" data-side="left"><span class="sq ok">1</span><span class="pin-label"><b class="m ok">[OK]</b> {{.D.Monitor.ActiveLogs}} CT logs tailed</span></li>
+    <li class="pin" style="left:30%;top:52%" data-side="right"><span class="sq ok">2</span><span class="pin-label"><b class="m ok">[OK]</b> every entry prefiltered</span></li>
+    <li class="pin" style="left:42%;top:27%" data-side="right"><span class="sq ok">3</span><span class="pin-label"><b class="m ok">[OK]</b> {{suffixes .D.Suffixes}}</span></li>
+    <li class="pin" style="left:59%;top:47%" data-side="right"><span class="sq info">4</span><span class="pin-label"><b class="m info">[SYNC]</b> RDAP + crt.sh lookups</span></li>
+    <li class="pin" style="left:52%;top:67%" data-side="right"><span class="sq warn">5</span><span class="pin-label"><b class="m warn">[WARN]</b> {{len .Groups}} bulk bursts flagged</span></li>
+    <li class="pin" style="left:24%;top:30%" data-side="right"><span class="sq ok" data-status-sq>6</span><span class="pin-label"><b class="m ok" data-status-marker>[OK]</b> published <span data-ago="{{iso .D.GeneratedAt}}">{{.Generated}}</span></span></li>
+  </ol>
+
+  <div class="corner tl">
+    <p class="brand"><span class="m ok">$</span> CT2SHELL</p>
+    <h1><span>New *2shell domains, read straight off the cert logs.</span></h1>
+  </div>
+  <nav class="corner tr" aria-label="Sections">
+    <a href="#log">Log</a><a href="#markers">Markers</a><a href="#bursts">Bursts</a><a href="#all">All</a><a href="#how">How</a>
+  </nav>
+  <div class="corner bl">
+    <a class="button" href="#log">Open the night log</a>
+    <p class="hint">{{.Total}} domains since {{if not .D.Monitor.Since.IsZero}}{{ts .D.Monitor.Since}}{{else}}start{{end}}.</p>
+  </div>
+  <ol class="corner br mini-log" aria-label="Latest detections">
+    {{range .Corner}}{{$m := marker .Verdict}}<li><span class="t">{{hm .FirstSeen}}</span> <b class="m {{$m.Class}}">[{{$m.Word}}]</b> {{.Domain}}</li>
+    {{else}}<li><span class="t">--:--</span> <b class="m info">[SYNC]</b> waiting for the first match</li>{{end}}
+  </ol>
+</header>
+
+<main>
+
+<section id="log" class="wrap">
+  <h2>Night log</h2>
+  <p class="lede">The last detections, oldest first. Each line is a registrable domain whose label ends in {{suffixes .D.Suffixes}}, seen in a certificate within seconds of it being logged.</p>
+  <ol class="log">
+    {{range .Log}}{{$m := marker .Verdict}}
+    <li class="row"><time class="t" datetime="{{iso .FirstSeen}}">{{hm .FirstSeen}}</time><span class="pinno">3</span><span class="tag">{{.MatchedSuffix}}</span><b class="m {{$m.Class}}">[{{$m.Word}}]</b><span class="say">{{sentence .}}</span></li>
+    {{end}}
+    <li class="row live"><span class="t prompt">&gt;</span><span class="pinno">1</span><span class="tag">watch</span><b class="m ok" data-status-marker>[OK]</b><span class="say" data-status-text>Watching {{.D.Monitor.ActiveLogs}} logs, {{comma .D.Monitor.TotalLag}} entries behind. Data published {{.Generated}}.</span></li>
+  </ol>
+</section>
+
+<section id="markers" class="wrap split">
+  <div>
+    <h2>Markers</h2>
+    <p class="lede">Every domain gets one word. It comes from the registration date (RDAP), earlier certificates (crt.sh) and whether it arrived in a burst.</p>
+  </div>
+  <dl class="defs">
+    {{range .Defs}}{{$m := marker .Verdict}}
+    <div><dt><b class="m {{$m.Class}}">[{{$m.Word}}]</b> <span class="count">{{index $.Counts .Verdict}}</span></dt><dd>{{.Text}}</dd></div>
+    {{end}}
+  </dl>
+</section>
+
+<section id="fresh" class="wrap">
+  <h2>Worth a look</h2>
+  <p class="lede">New, likely new and dormant domains that did not arrive in a burst, newest first.</p>
+  {{if .Fresh}}
+  <div class="scroll"><table>
+    <thead><tr><th>First seen</th><th>State</th><th>Domain</th><th>Registered</th><th>Registrar</th><th>Issuer</th><th class="num">Delay</th></tr></thead>
+    <tbody>
+    {{range .Fresh}}{{$m := marker .Verdict}}
+    <tr><td><time datetime="{{iso .FirstSeen}}">{{ts .FirstSeen}}</time></td><td><b class="m {{$m.Class}}">[{{$m.Word}}]</b></td><td class="dom">{{.Domain}}</td><td>{{if .RegisteredAt}}{{day .RegisteredAt}}{{else if .Hosted}}hosted on {{.PublicSuffix}}{{else}}-{{end}}</td><td>{{or .Registrar "-"}}</td><td>{{.Issuer}}</td><td class="num">{{delay .DelaySec}}</td></tr>
+    {{end}}
+    </tbody>
+  </table></div>
+  {{else}}<p class="empty"><b class="m info">[SYNC]</b> Nothing outside a burst yet.</p>{{end}}
+</section>
+
+<section id="bursts" class="wrap">
+  <h2>Bursts</h2>
+  <p class="lede">Groups of matching domains from one registrar, each within 30 minutes of the last. A burst usually means one actor registering product-name variants on speculation.</p>
+  {{if .Groups}}
+  <div class="scroll"><table>
+    <thead><tr><th>Started</th><th>State</th><th class="num">Size</th><th class="num">Span</th><th>Registrar</th><th>Domains</th></tr></thead>
+    <tbody>
+    {{range .Groups}}
+    <tr><td><time datetime="{{iso .Start}}">{{ts .Start}}</time></td><td><b class="m warn">[BULK]</b></td><td class="num">{{len .Domains}}</td><td class="num">{{span .}}</td><td>{{or .Registrar "unknown"}}</td><td class="doms">{{join (names .) ", "}}{{with more .}} and {{.}} more{{end}}</td></tr>
+    {{end}}
+    </tbody>
+  </table></div>
+  {{else}}<p class="empty"><b class="m ok">[OK]</b> No bursts yet.</p>{{end}}
+</section>
+
+<section id="all" class="wrap">
+  <h2>All domains</h2>
+  <div class="filters js-only">
+    <label><span>Search</span><input type="search" id="q" placeholder="react2shell" autocomplete="off"></label>
+    <label><span>Marker</span><select id="v"><option value="">all</option>{{range .Defs}}{{$m := marker .Verdict}}<option value="{{.Verdict}}">{{$m.Word}}</option>{{end}}</select></label>
+    <p class="m muted" id="shown" aria-live="polite"></p>
+  </div>
+  <div class="scroll"><table id="all-table">
+    <thead><tr><th>First seen</th><th>State</th><th>Domain</th><th>Registered</th><th>Registrar</th><th>Log</th><th class="num">Burst</th></tr></thead>
+    <tbody>
+    {{range .All}}{{$m := marker .Verdict}}
+    <tr data-v="{{.Verdict}}" data-q="{{.Domain}} {{.Registrar}} {{join .Names " "}}"><td><time datetime="{{iso .FirstSeen}}">{{ts .FirstSeen}}</time></td><td><b class="m {{$m.Class}}">[{{$m.Word}}]</b></td><td class="dom">{{.Domain}}</td><td>{{if .RegisteredAt}}{{day .RegisteredAt}}{{else if .Hosted}}hosted{{else}}-{{end}}</td><td>{{or .Registrar "-"}}</td><td>{{.Log}}</td><td class="num">{{if .BulkGroupSize}}{{.BulkGroupSize}}{{else}}-{{end}}</td></tr>
+    {{else}}<tr><td colspan="7">No matches yet.</td></tr>{{end}}
+    </tbody>
+  </table></div>
+</section>
+
+<section id="how" class="wrap split">
+  <div>
+    <h2>How it works</h2>
+    <p class="lede">Branded bug sites (log4shell.com, react2shell.com) need TLS, and every publicly trusted certificate has to be written to Certificate Transparency logs. Watching the logs shows such a site the moment its certificate is issued.</p>
+  </div>
+  <ol class="steps">
+    <li><span class="sq ok">1</span><p>A monitor tails all {{.D.Monitor.ActiveLogs}} active Chrome-trusted CT logs, both RFC 6962 and tiled, about 4,000 entries a second.</p></li>
+    <li><span class="sq ok">2</span><p>Each entry's raw bytes are prefiltered for the suffixes; only hits are parsed as X.509.</p></li>
+    <li><span class="sq ok">3</span><p>The label before the public suffix must end in {{suffixes .D.Suffixes}}. Each domain is recorded once.</p></li>
+    <li><span class="sq info">4</span><p>RDAP gives the registration date and registrar; crt.sh shows whether the domain had certificates before.</p></li>
+    <li><span class="sq warn">5</span><p>Matches from one registrar within 30 minutes of each other are grouped as a burst.</p></li>
+    <li><span class="sq ok">6</span><p>The results are published here every 15 minutes, and an open page reloads itself when new data lands.</p></li>
+  </ol>
+</section>
+
+<section class="wrap caveats">
+  <h2>Limits</h2>
+  <ul>
+    <li><b class="m warn">[WARN]</b> Warning time is short. log4shell.com's first certificate came a day after disclosure; react2shell.com's came the same day.</li>
+    <li><b class="m warn">[WARN]</b> A site on a subdomain covered by a wildcard certificate never appears by name.</li>
+    <li><b class="m info">[SYNC]</b> Listing a domain says nothing about its owner's intent. Bursts are usually speculation, not disclosure.</li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p><span class="m muted">ct2shell</span> data generated {{.Generated}} from CT logs, RDAP and crt.sh. <a href="data.json">data.json</a> · <a href="https://github.com/raesene/ct2shell">source</a></p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
