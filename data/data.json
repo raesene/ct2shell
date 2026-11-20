@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:00:19Z",
+ "generated_at": "2026-11-20T20:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 681676,
-  "last_log_update": "2026-11-20T20:00:09.582835194Z",
+  "total_lag": 152279,
+  "last_log_update": "2026-11-20T20:15:09.613503184Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2775,6 +2775,24 @@
    "detection_delay_sec": 3.078542446,
    "registered_at": "2026-11-20T19:06:21Z",
    "registrar": "OVH sas",
+   "verdict": "new"
+  },
+  {
+   "domain": "vibe2shell.com",
+   "label": "vibe2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T20:09:36.349704463Z",
+   "names": [
+    "*.vibe2shell.com",
+    "vibe2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.758704463,
+   "registered_at": "2026-11-20T20:07:26Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
