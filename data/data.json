@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T23:45:19Z",
+ "generated_at": "2026-11-20T00:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 151427,
-  "last_log_update": "2026-11-19T23:45:09.657364497Z",
+  "total_lag": 685856,
+  "last_log_update": "2026-11-20T00:00:09.652870672Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2331,6 +2331,25 @@
    "verdict": "bulk",
    "base_verdict": "unknown",
    "bulk_group_size": 4
+  },
+  {
+   "domain": "rook2root.in",
+   "label": "rook2root",
+   "matched_suffix": "2root",
+   "public_suffix": "in",
+   "hosted": false,
+   "first_seen": "2026-11-19T23:40:53.380901911Z",
+   "names": [
+    "rook2root.in"
+   ],
+   "log": "GoDaddy Aquamarine2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 6.159901911,
+   "registered_at": "2025-05-09T08:47:35.957Z",
+   "registrar": "GoDaddy",
+   "crtsh_cert_count": 3,
+   "crtsh_earliest_not_before": "2025-05-10T05:09:35Z",
+   "verdict": "existing"
   }
  ]
 }
