@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:16:19Z",
+ "generated_at": "2026-11-20T07:31:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 105481,
-  "last_log_update": "2026-11-20T07:16:09.631402282Z",
+  "total_lag": 86423,
+  "last_log_update": "2026-11-20T07:31:09.575186503Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2437,6 +2437,42 @@
    "registered_at": "2026-11-19T17:18:20Z",
    "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "galaxys4root.pages.dev",
+   "label": "galaxys4root",
+   "matched_suffix": "4root",
+   "public_suffix": "pages.dev",
+   "hosted": true,
+   "first_seen": "2026-11-20T07:13:31.890733443Z",
+   "names": [
+    "*.galaxys4root.pages.dev",
+    "galaxys4root.pages.dev"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 3.966733443,
+   "crtsh_cert_count": 24,
+   "crtsh_earliest_not_before": "2024-08-14T00:00:00Z",
+   "verdict": "existing"
+  },
+  {
+   "domain": "log4shell.com",
+   "label": "log4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T07:20:30.741474888Z",
+   "names": [
+    "*.log4shell.com",
+    "log4shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.8164748880000001,
+   "registered_at": "2021-12-10T08:57:30Z",
+   "registrar": "Squarespace Domains II LLC",
+   "verdict": "existing"
   }
  ]
 }
