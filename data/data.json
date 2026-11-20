@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:46:19Z",
+ "generated_at": "2026-11-20T12:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 71672,
-  "last_log_update": "2026-11-20T11:46:09.599606966Z",
+  "total_lag": 623511,
+  "last_log_update": "2026-11-20T12:00:09.661192282Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2577,6 +2577,43 @@
    "detection_delay_sec": 3.900876769,
    "registered_at": "2026-11-09T21:44:01Z",
    "registrar": "NameCheap, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "welcome2root.com",
+   "label": "welcome2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T11:53:01.52426655Z",
+   "names": [
+    "welcome2root.com",
+    "www.welcome2root.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 3.36826655,
+   "registered_at": "2020-07-02T22:32:30Z",
+   "registrar": "Wix.com Ltd.",
+   "crtsh_cert_count": 45,
+   "crtsh_earliest_not_before": "2020-07-02T21:33:08Z",
+   "verdict": "existing"
+  },
+  {
+   "domain": "java4shell.co.uk",
+   "label": "java4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "co.uk",
+   "hosted": false,
+   "first_seen": "2026-11-20T11:53:46.130072928Z",
+   "names": [
+    "java4shell.co.uk"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 3.005072928,
+   "registered_at": "2026-11-18T07:22:33.109441Z",
+   "registrar": "Namecheap, Inc.",
    "verdict": "new"
   }
  ]
