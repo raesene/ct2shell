@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T04:15:18Z",
+ "generated_at": "2026-11-20T04:31:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 41483,
-  "last_log_update": "2026-11-20T04:15:09.635406012Z",
+  "total_lag": 46548,
+  "last_log_update": "2026-11-20T04:31:09.582575877Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2385,6 +2385,23 @@
    "crtsh_cert_count": 5,
    "crtsh_earliest_not_before": "2026-07-10T02:30:33Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "root2root.workers.dev",
+   "label": "root2root",
+   "matched_suffix": "2root",
+   "public_suffix": "workers.dev",
+   "hosted": true,
+   "first_seen": "2026-11-20T04:15:54.944356411Z",
+   "names": [
+    "*.root2root.workers.dev",
+    "root2root.workers.dev"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Sectigo Limited Sectigo Public Server Authentication CA DV E36",
+   "detection_delay_sec": 3.413356411,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
   }
  ]
 }
