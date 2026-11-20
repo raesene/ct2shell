@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T01:30:19Z",
+ "generated_at": "2026-11-20T01:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 56894,
-  "last_log_update": "2026-11-20T01:30:09.511502508Z",
+  "total_lag": 121404,
+  "last_log_update": "2026-11-20T01:45:09.637605639Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2367,6 +2367,24 @@
    "registered_at": "2026-11-19T06:30:51Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "return2root.pages.dev",
+   "label": "return2root",
+   "matched_suffix": "2root",
+   "public_suffix": "pages.dev",
+   "hosted": true,
+   "first_seen": "2026-11-20T01:34:15.245049476Z",
+   "names": [
+    "*.return2root.pages.dev",
+    "return2root.pages.dev"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 4.073049476,
+   "crtsh_cert_count": 5,
+   "crtsh_earliest_not_before": "2026-07-10T02:30:33Z",
+   "verdict": "existing"
   }
  ]
 }
