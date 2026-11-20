@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:30:19Z",
+ "generated_at": "2026-11-20T15:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 96753,
-  "last_log_update": "2026-11-20T15:30:09.587016305Z",
+  "total_lag": 88593,
+  "last_log_update": "2026-11-20T15:45:09.651416831Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
