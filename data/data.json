@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:00:19Z",
+ "generated_at": "2026-11-20T13:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 702320,
-  "last_log_update": "2026-11-20T13:00:09.529895923Z",
+  "total_lag": 119724,
+  "last_log_update": "2026-11-20T13:15:09.64772406Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2615,6 +2615,24 @@
    "registered_at": "2026-11-18T07:22:33.109441Z",
    "registrar": "Namecheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "v2root.workers.dev",
+   "label": "v2root",
+   "matched_suffix": "2root",
+   "public_suffix": "workers.dev",
+   "hosted": true,
+   "first_seen": "2026-11-20T13:08:59.485170534Z",
+   "names": [
+    "*.server00.v2root.workers.dev",
+    "v2root.workers.dev"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 3.561170534,
+   "crtsh_cert_count": 706,
+   "crtsh_earliest_not_before": "2022-03-09T00:00:00Z",
+   "verdict": "existing"
   }
  ]
 }
