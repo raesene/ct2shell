@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T06:45:19Z",
+ "generated_at": "2026-11-20T07:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 119889,
-  "last_log_update": "2026-11-20T06:45:09.61928241Z",
+  "total_lag": 658063,
+  "last_log_update": "2026-11-20T07:00:09.651996049Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2418,6 +2418,24 @@
    "detection_delay_sec": 4.974478349,
    "registered_at": "2026-11-19T09:07:09Z",
    "registrar": "EuroDNS S.A.",
+   "verdict": "new"
+  },
+  {
+   "domain": "roadmap2shell.com",
+   "label": "roadmap2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T06:47:28.965150093Z",
+   "names": [
+    "*.roadmap2shell.com",
+    "roadmap2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.041150093,
+   "registered_at": "2026-11-19T17:18:20Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
