@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:01:19Z",
+ "generated_at": "2026-11-20T22:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 638490,
-  "last_log_update": "2026-11-20T22:01:09.641809019Z",
+  "total_lag": 155731,
+  "last_log_update": "2026-11-20T22:15:09.62792783Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2794,6 +2794,26 @@
    "registered_at": "2026-11-20T20:07:26Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "race2root.com",
+   "label": "race2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T22:00:05.564278364Z",
+   "names": [
+    "*.race2root.com",
+    "race2root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 2.296278364,
+   "registered_at": "2017-04-28T20:04:22Z",
+   "registrar": "GoDaddy.com, LLC",
+   "crtsh_cert_count": 10,
+   "crtsh_earliest_not_before": "2023-12-23T20:35:37Z",
+   "verdict": "existing"
   }
  ]
 }
