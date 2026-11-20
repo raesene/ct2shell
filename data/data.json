@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T06:30:19Z",
+ "generated_at": "2026-11-20T06:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 140132,
-  "last_log_update": "2026-11-20T06:30:09.571496564Z",
+  "total_lag": 119889,
+  "last_log_update": "2026-11-20T06:45:09.61928241Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2402,6 +2402,23 @@
    "detection_delay_sec": 3.413356411,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
+  },
+  {
+   "domain": "bigip2shell.com",
+   "label": "bigip2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T06:32:43.409478349Z",
+   "names": [
+    "bigip2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 4.974478349,
+   "registered_at": "2026-11-19T09:07:09Z",
+   "registrar": "EuroDNS S.A.",
+   "verdict": "new"
   }
  ]
 }
