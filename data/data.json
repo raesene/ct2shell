@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:45:19Z",
+ "generated_at": "2026-11-20T16:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 88593,
-  "last_log_update": "2026-11-20T15:45:09.651416831Z",
+  "total_lag": 708604,
+  "last_log_update": "2026-11-20T16:00:09.659009455Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2688,6 +2688,24 @@
    "crtsh_cert_count": 33,
    "crtsh_earliest_not_before": "2019-01-07T15:20:23Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "cole2shell.com",
+   "label": "cole2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T15:56:58.195883314Z",
+   "names": [
+    "*.cole2shell.com",
+    "cole2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.097883314,
+   "registered_at": "2026-11-20T15:54:48Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
