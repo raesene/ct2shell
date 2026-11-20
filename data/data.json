@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:15:19Z",
+ "generated_at": "2026-11-20T17:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 87500,
-  "last_log_update": "2026-11-20T17:15:09.621258266Z",
+  "total_lag": 62957,
+  "last_log_update": "2026-11-20T17:30:09.659401552Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2723,6 +2723,24 @@
    "detection_delay_sec": 2.132074267,
    "registered_at": "2026-11-20T16:44:22Z",
    "registrar": "HOSTINGER operations, UAB",
+   "verdict": "new"
+  },
+  {
+   "domain": "login2shell.com",
+   "label": "login2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T17:19:20.053185913Z",
+   "names": [
+    "*.login2shell.com",
+    "login2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.5281859129999997,
+   "registered_at": "2026-11-20T17:17:06Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
