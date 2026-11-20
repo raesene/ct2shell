@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T09:15:19Z",
+ "generated_at": "2026-11-20T09:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 109906,
-  "last_log_update": "2026-11-20T09:15:09.580522Z",
+  "total_lag": 63766,
+  "last_log_update": "2026-11-20T09:30:09.608113805Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2542,6 +2542,23 @@
    "detection_delay_sec": 2.445796652,
    "registered_at": "2026-11-20T09:03:51Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "pigeon2shell.com",
+   "label": "pigeon2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T09:27:18.291663928Z",
+   "names": [
+    "pigeon2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 1.984663928,
+   "registered_at": "2026-11-20T08:01:56Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
