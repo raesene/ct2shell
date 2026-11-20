@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:00:19Z",
+ "generated_at": "2026-11-20T15:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 727964,
-  "last_log_update": "2026-11-20T15:00:09.55765026Z",
+  "total_lag": 151536,
+  "last_log_update": "2026-11-20T15:15:09.664992031Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2633,6 +2633,24 @@
    "crtsh_cert_count": 706,
    "crtsh_earliest_not_before": "2022-03-09T00:00:00Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "google2shell.com",
+   "label": "google2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T15:12:16.989979022Z",
+   "names": [
+    "*.google2shell.com",
+    "google2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.458979022,
+   "registered_at": "2026-11-20T15:10:06Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
