@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T23:15:19Z",
+ "generated_at": "2026-11-20T23:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 83950,
-  "last_log_update": "2026-11-20T23:15:09.636780521Z",
+  "total_lag": 59128,
+  "last_log_update": "2026-11-20T23:30:09.665188519Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2814,6 +2814,24 @@
    "crtsh_cert_count": 10,
    "crtsh_earliest_not_before": "2023-12-23T20:35:37Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "munson2shell.com",
+   "label": "munson2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T23:12:38.922781825Z",
+   "names": [
+    "*.munson2shell.com",
+    "munson2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.023781825,
+   "registered_at": "2026-11-20T17:02:36Z",
+   "registrar": "Network Solutions, LLC",
+   "verdict": "new"
   }
  ]
 }
