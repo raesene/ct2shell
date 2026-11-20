@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:15:19Z",
+ "generated_at": "2026-11-20T18:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 187920,
-  "last_log_update": "2026-11-20T18:15:09.639672626Z",
+  "total_lag": 56061,
+  "last_log_update": "2026-11-20T18:30:09.575045521Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2741,6 +2741,23 @@
    "detection_delay_sec": 3.5281859129999997,
    "registered_at": "2026-11-20T17:17:06Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "kube2shell.com",
+   "label": "kube2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T18:17:12.583169548Z",
+   "names": [
+    "kube2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.485169548,
+   "registered_at": "2026-11-20T17:46:01Z",
+   "registrar": "DreamHost, LLC",
    "verdict": "new"
   }
  ]
