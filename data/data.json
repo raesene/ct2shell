@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T10:15:19Z",
+ "generated_at": "2026-11-20T10:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 47037,
-  "last_log_update": "2026-11-20T10:15:09.655630095Z",
+  "total_lag": 77355,
+  "last_log_update": "2026-11-20T10:30:09.63153711Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2559,6 +2559,24 @@
    "detection_delay_sec": 1.984663928,
    "registered_at": "2026-11-20T08:01:56Z",
    "registrar": "GoDaddy.com, LLC",
+   "verdict": "new"
+  },
+  {
+   "domain": "human2shell.com",
+   "label": "human2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T10:25:47.598876769Z",
+   "names": [
+    "*.human2shell.com",
+    "human2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.900876769,
+   "registered_at": "2026-11-09T21:44:01Z",
+   "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
  ]
