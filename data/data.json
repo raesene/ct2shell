@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T09:00:19Z",
+ "generated_at": "2026-11-20T09:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 575712,
-  "last_log_update": "2026-11-20T09:00:09.597196612Z",
+  "total_lag": 109906,
+  "last_log_update": "2026-11-20T09:15:09.580522Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2507,6 +2507,41 @@
    "detection_delay_sec": 3.374596113,
    "registered_at": "2026-11-19T18:24:24Z",
    "registrar": "OVH sas",
+   "verdict": "new"
+  },
+  {
+   "domain": "smarpo2shell.pages.dev",
+   "label": "smarpo2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "pages.dev",
+   "hosted": true,
+   "first_seen": "2026-11-20T09:03:35.71022659Z",
+   "names": [
+    "*.smarpo2shell.pages.dev",
+    "smarpo2shell.pages.dev"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 1.80222659,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
+  },
+  {
+   "domain": "smarpo2shell.com",
+   "label": "smarpo2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-20T09:06:00.976796652Z",
+   "names": [
+    "*.smarpo2shell.com",
+    "smarpo2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.445796652,
+   "registered_at": "2026-11-20T09:03:51Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
