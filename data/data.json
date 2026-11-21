@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:15:18Z",
+ "generated_at": "2026-11-21T12:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 119846,
-  "last_log_update": "2026-11-21T12:15:09.652113936Z",
+  "total_lag": 66144,
+  "last_log_update": "2026-11-21T12:30:09.572282677Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2992,6 +2992,24 @@
    "crtsh_cert_count": 42,
    "crtsh_earliest_not_before": "2025-08-11T05:51:44Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "2shell.cz",
+   "label": "2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "cz",
+   "hosted": false,
+   "first_seen": "2026-11-21T12:22:10.82159818Z",
+   "names": [
+    "*.2shell.cz",
+    "2shell.cz"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.13059818,
+   "registered_at": "2026-11-21T11:57:43Z",
+   "registrar": "WEDOS Internet, a.s.",
+   "verdict": "new"
   }
  ]
 }
