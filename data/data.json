@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T19:30:19Z",
+ "generated_at": "2026-11-21T19:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 75458,
-  "last_log_update": "2026-11-21T19:30:09.609359083Z",
+  "total_lag": 195782,
+  "last_log_update": "2026-11-21T19:45:09.522251838Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3079,6 +3079,26 @@
    "registered_at": "2026-11-19T01:03:51Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "wp2shell.net",
+   "label": "wp2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "net",
+   "hosted": false,
+   "first_seen": "2026-11-21T19:30:23.045232784Z",
+   "names": [
+    "*.wp2shell.net",
+    "wp2shell.net"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "SSL Corporation Cloudflare TLS Issuing ECC CA 4",
+   "detection_delay_sec": 2.591232784,
+   "registered_at": "2026-07-26T13:13:46Z",
+   "registrar": "Squarespace Domains LLC",
+   "crtsh_cert_count": 7,
+   "crtsh_earliest_not_before": "2026-07-26T12:15:39Z",
+   "verdict": "existing"
   }
  ]
 }
