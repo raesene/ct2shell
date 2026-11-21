@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:30:19Z",
+ "generated_at": "2026-11-21T13:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 84851,
-  "last_log_update": "2026-11-21T13:30:09.600137567Z",
+  "total_lag": 152905,
+  "last_log_update": "2026-11-21T13:45:09.618673107Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3027,6 +3027,23 @@
    "registered_at": "2026-11-02T21:57:27Z",
    "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "everything2shell.se",
+   "label": "everything2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "se",
+   "hosted": false,
+   "first_seen": "2026-11-21T13:40:14.746335338Z",
+   "names": [
+    "*.everything2shell.se",
+    "everything2shell.se"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.8223353380000002,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
   }
  ]
 }
