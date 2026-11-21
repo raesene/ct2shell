@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T22:45:19Z",
+ "generated_at": "2026-11-21T23:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 121396,
-  "last_log_update": "2026-11-21T22:45:09.657684044Z",
+  "total_lag": 520954,
+  "last_log_update": "2026-11-21T23:00:09.651408131Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3116,6 +3116,23 @@
    "crtsh_cert_count": 15,
    "crtsh_earliest_not_before": "2021-12-14T09:22:12Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "meow2shell.org",
+   "label": "meow2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "org",
+   "hosted": false,
+   "first_seen": "2026-11-21T22:50:45.896440655Z",
+   "names": [
+    "meow2shell.org"
+   ],
+   "log": "Google PlumbersArms2026h2",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 8.479440655,
+   "registered_at": "2026-11-11T19:47:42.677Z",
+   "registrar": "NameCheap, Inc.",
+   "verdict": "new"
   }
  ]
 }
