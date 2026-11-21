@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T08:30:20Z",
+ "generated_at": "2026-11-21T08:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 68700,
-  "last_log_update": "2026-11-21T08:30:19.660567842Z",
+  "total_lag": 109618,
+  "last_log_update": "2026-11-21T08:45:09.630215585Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2938,6 +2938,23 @@
    "detection_delay_sec": 1.530242609,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
+  },
+  {
+   "domain": "seed2root.io",
+   "label": "seed2root",
+   "matched_suffix": "2root",
+   "public_suffix": "io",
+   "hosted": false,
+   "first_seen": "2026-11-21T08:30:52.239206119Z",
+   "names": [
+    "seed2root.io"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.129206119,
+   "crtsh_cert_count": 1,
+   "crtsh_earliest_not_before": "2024-10-21T00:00:00Z",
+   "verdict": "existing"
   }
  ]
 }
