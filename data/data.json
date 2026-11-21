@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T17:45:19Z",
+ "generated_at": "2026-11-21T18:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 148805,
-  "last_log_update": "2026-11-21T17:45:09.636189901Z",
+  "total_lag": 636214,
+  "last_log_update": "2026-11-21T18:00:09.584112108Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3060,6 +3060,24 @@
    "detection_delay_sec": 3.410730191,
    "registered_at": "2026-11-20T23:06:32Z",
    "registrar": "Spaceship, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "cve2shell.com",
+   "label": "cve2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T17:55:08.75823962Z",
+   "names": [
+    "cve2shell.com",
+    "www.cve2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 4.06023962,
+   "registered_at": "2026-11-19T01:03:51Z",
+   "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
  ]
