@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T02:30:19Z",
+ "generated_at": "2026-11-21T02:45:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 64062,
-  "last_log_update": "2026-11-21T02:30:19.542107125Z",
+  "total_lag": 114799,
+  "last_log_update": "2026-11-21T02:45:09.625019837Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2849,6 +2849,60 @@
    "registered_at": "2026-11-18T17:12:39Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "2root.sh",
+   "label": "2root",
+   "matched_suffix": "2root",
+   "public_suffix": "sh",
+   "hosted": false,
+   "first_seen": "2026-11-21T02:31:00.79039439Z",
+   "names": [
+    "*.2root.sh",
+    "2root.sh"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.19139439,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
+  },
+  {
+   "domain": "r2root.ch",
+   "label": "r2root",
+   "matched_suffix": "2root",
+   "public_suffix": "ch",
+   "hosted": false,
+   "first_seen": "2026-11-21T02:41:35.086394578Z",
+   "names": [
+    "r2root.ch",
+    "www.r2root.ch"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.703394578,
+   "verdict": "bulk",
+   "base_verdict": "unknown",
+   "bulk_group_size": 3
+  },
+  {
+   "domain": "r2root.dev",
+   "label": "r2root",
+   "matched_suffix": "2root",
+   "public_suffix": "dev",
+   "hosted": false,
+   "first_seen": "2026-11-21T02:41:35.086487263Z",
+   "names": [
+    "r2root.dev",
+    "www.r2root.dev"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 2.703487263,
+   "registered_at": "2026-02-25T18:20:57.651Z",
+   "registrar": "Key-Systems LLC",
+   "verdict": "existing",
+   "bulk_group_size": 3
   }
  ]
 }
