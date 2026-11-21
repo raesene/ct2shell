@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:45:18Z",
+ "generated_at": "2026-11-21T02:01:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 157568,
-  "last_log_update": "2026-11-21T01:45:09.648890419Z",
+  "total_lag": 477904,
+  "last_log_update": "2026-11-21T02:01:09.629693227Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2831,6 +2831,23 @@
    "detection_delay_sec": 3.023781825,
    "registered_at": "2026-11-20T17:02:36Z",
    "registrar": "Network Solutions, LLC",
+   "verdict": "new"
+  },
+  {
+   "domain": "dotnet2shell.com",
+   "label": "dotnet2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T01:44:32.35139832Z",
+   "names": [
+    "www.dotnet2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 5.42639832,
+   "registered_at": "2026-11-18T17:12:39Z",
+   "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
  ]
