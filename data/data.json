@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:30:19Z",
+ "generated_at": "2026-11-21T12:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 66144,
-  "last_log_update": "2026-11-21T12:30:09.572282677Z",
+  "total_lag": 152067,
+  "last_log_update": "2026-11-21T12:45:09.650605394Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3009,6 +3009,23 @@
    "detection_delay_sec": 3.13059818,
    "registered_at": "2026-11-21T11:57:43Z",
    "registrar": "WEDOS Internet, a.s.",
+   "verdict": "new"
+  },
+  {
+   "domain": "javascript2shell.com",
+   "label": "javascript2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T12:41:21.303641978Z",
+   "names": [
+    "www.javascript2shell.com"
+   ],
+   "log": "GoDaddy Aquamarine2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 6.481641978,
+   "registered_at": "2026-11-02T21:57:27Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
