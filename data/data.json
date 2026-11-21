@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T11:45:19Z",
+ "generated_at": "2026-11-21T12:00:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 137813,
-  "last_log_update": "2026-11-21T11:45:09.616366996Z",
+  "total_lag": 587179,
+  "last_log_update": "2026-11-21T12:00:09.643618674Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2972,6 +2972,26 @@
    "registered_at": "2026-11-17T01:22:20Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "road2root.com",
+   "label": "road2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T11:45:33.951740206Z",
+   "names": [
+    "*.road2root.com",
+    "road2root.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 0.653740206,
+   "registered_at": "2025-08-07T07:25:55Z",
+   "registrar": "Spaceship, Inc.",
+   "crtsh_cert_count": 42,
+   "crtsh_earliest_not_before": "2025-08-11T05:51:44Z",
+   "verdict": "existing"
   }
  ]
 }
