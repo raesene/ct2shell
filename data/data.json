@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T06:15:19Z",
+ "generated_at": "2026-11-21T06:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 51693,
-  "last_log_update": "2026-11-21T06:15:09.581418783Z",
+  "total_lag": 87494,
+  "last_log_update": "2026-11-21T06:30:09.551112874Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2903,6 +2903,24 @@
    "registrar": "Key-Systems LLC",
    "verdict": "existing",
    "bulk_group_size": 3
+  },
+  {
+   "domain": "waifu2shell.com",
+   "label": "waifu2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T06:15:43.026989736Z",
+   "names": [
+    "*.waifu2shell.com",
+    "waifu2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.928989736,
+   "registered_at": "2026-11-21T06:10:18Z",
+   "registrar": "Porkbun LLC",
+   "verdict": "new"
   }
  ]
 }
