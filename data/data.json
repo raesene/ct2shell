@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:30:19Z",
+ "generated_at": "2026-11-21T09:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 81299,
-  "last_log_update": "2026-11-21T09:30:09.644323698Z",
+  "total_lag": 61260,
+  "last_log_update": "2026-11-21T09:45:09.643376639Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -2955,6 +2955,23 @@
    "crtsh_cert_count": 1,
    "crtsh_earliest_not_before": "2024-10-21T00:00:00Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "zimbra2shell.com",
+   "label": "zimbra2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-21T09:29:36.365291235Z",
+   "names": [
+    "www.zimbra2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.063291235,
+   "registered_at": "2026-11-17T01:22:20Z",
+   "registrar": "NameCheap, Inc.",
+   "verdict": "new"
   }
  ]
 }
