@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:15:21Z",
+ "generated_at": "2026-11-22T09:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 93668,
-  "last_log_update": "2026-11-22T09:15:19.546296639Z",
+  "total_lag": 53959,
+  "last_log_update": "2026-11-22T09:30:09.596342765Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3183,6 +3183,24 @@
    "issuer": "Let's Encrypt YE2",
    "detection_delay_sec": 8.057109062,
    "registered_at": "2026-11-18T22:33:21Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "insider2shell.com",
+   "label": "insider2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T09:21:33.674109152Z",
+   "names": [
+    "*.insider2shell.com",
+    "insider2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.180109152,
+   "registered_at": "2026-11-22T09:19:25Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
