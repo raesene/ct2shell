@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:15:19Z",
+ "generated_at": "2026-11-22T08:30:55Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 54410,
-  "last_log_update": "2026-11-22T08:15:09.627409321Z",
+  "total_lag": 71992,
+  "last_log_update": "2026-11-22T08:30:49.632291083Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3167,6 +3167,23 @@
    "detection_delay_sec": 3.184019315,
    "registered_at": "2026-11-22T07:17:06Z",
    "registrar": "HOSTINGER operations, UAB",
+   "verdict": "new"
+  },
+  {
+   "domain": "php2php2shell.com",
+   "label": "php2php2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T08:20:38.813109062Z",
+   "names": [
+    "php2php2shell.com"
+   ],
+   "log": "Google PlumbersArms2026h2",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 8.057109062,
+   "registered_at": "2026-11-18T22:33:21Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
