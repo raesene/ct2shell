@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:01:19Z",
+ "generated_at": "2026-11-22T01:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 465022,
-  "last_log_update": "2026-11-22T01:01:09.63954905Z",
+  "total_lag": 77419,
+  "last_log_update": "2026-11-22T01:15:09.575574863Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3133,6 +3133,23 @@
    "registered_at": "2026-11-11T19:47:42.677Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "10154444shell.com.ph",
+   "label": "10154444shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com.ph",
+   "hosted": false,
+   "first_seen": "2026-11-22T01:08:48.509767663Z",
+   "names": [
+    "10154444shell.com.ph"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.253767663,
+   "crtsh_cert_count": 3,
+   "crtsh_earliest_not_before": "2026-07-06T11:29:08Z",
+   "verdict": "existing"
   }
  ]
 }
