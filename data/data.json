@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:45:19Z",
+ "generated_at": "2026-11-22T20:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 498269,
-  "last_log_update": "2026-11-22T19:45:09.663426812Z",
+  "total_lag": 1030882,
+  "last_log_update": "2026-11-22T20:00:09.633892843Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3253,6 +3253,24 @@
    "issuer": "Google Trust Services WE1",
    "detection_delay_sec": 1.731834732,
    "registered_at": "2026-11-22T18:32:41Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "minecraft2shell.com",
+   "label": "minecraft2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T19:46:45.368815089Z",
+   "names": [
+    "*.minecraft2shell.com",
+    "minecraft2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.670815089,
+   "registered_at": "2026-11-22T19:44:35Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
