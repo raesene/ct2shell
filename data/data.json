@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:45:18Z",
+ "generated_at": "2026-11-22T18:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 228933,
-  "last_log_update": "2026-11-22T17:45:09.648941262Z",
+  "total_lag": 660338,
+  "last_log_update": "2026-11-22T18:00:09.616411039Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3219,6 +3219,23 @@
    "detection_delay_sec": 1.9358928180000001,
    "registered_at": "2004-08-06T15:23:05Z",
    "registrar": "Dynadot Inc",
+   "verdict": "existing"
+  },
+  {
+   "domain": "react2shell.com",
+   "label": "react2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T17:44:00.766010428Z",
+   "names": [
+    "react2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 0.467010428,
+   "registered_at": "2025-12-03T14:04:18Z",
+   "registrar": "Key-Systems GmbH",
    "verdict": "existing"
   }
  ]
