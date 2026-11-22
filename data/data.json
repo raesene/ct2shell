@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T07:15:19Z",
+ "generated_at": "2026-11-22T07:31:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 160454,
-  "last_log_update": "2026-11-22T07:15:09.66263095Z",
+  "total_lag": 91765,
+  "last_log_update": "2026-11-22T07:31:09.630702233Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3150,6 +3150,24 @@
    "crtsh_cert_count": 3,
    "crtsh_earliest_not_before": "2026-07-06T11:29:08Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "django4shell.com",
+   "label": "django4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T07:18:33.555019315Z",
+   "names": [
+    "django4shell.com",
+    "www.django4shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.184019315,
+   "registered_at": "2026-11-22T07:17:06Z",
+   "registrar": "HOSTINGER operations, UAB",
+   "verdict": "new"
   }
  ]
 }
