@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:30:19Z",
+ "generated_at": "2026-11-22T18:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 179283,
-  "last_log_update": "2026-11-22T18:30:09.643057651Z",
+  "total_lag": 308734,
+  "last_log_update": "2026-11-22T18:45:09.634715104Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3237,6 +3237,24 @@
    "registered_at": "2025-12-03T14:04:18Z",
    "registrar": "Key-Systems GmbH",
    "verdict": "existing"
+  },
+  {
+   "domain": "taco2shell.com",
+   "label": "taco2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T18:34:53.352834732Z",
+   "names": [
+    "*.taco2shell.com",
+    "taco2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.731834732,
+   "registered_at": "2026-11-22T18:32:41Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
