@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T10:15:18Z",
+ "generated_at": "2026-11-22T10:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 72089,
-  "last_log_update": "2026-11-22T10:15:09.658471849Z",
+  "total_lag": 90884,
+  "last_log_update": "2026-11-22T10:30:09.664614281Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3203,6 +3203,23 @@
    "registered_at": "2026-11-22T09:19:25Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "4root.com",
+   "label": "4root",
+   "matched_suffix": "4root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-22T10:20:51.634892818Z",
+   "names": [
+    "vpn1.4root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "DigiCert\\ Encryption Everywhere G5 TLS RSA4096 SHA384 2022 CA1",
+   "detection_delay_sec": 1.9358928180000001,
+   "registered_at": "2004-08-06T15:23:05Z",
+   "registrar": "Dynadot Inc",
+   "verdict": "existing"
   }
  ]
 }
