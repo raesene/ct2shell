@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:45:19Z",
+ "generated_at": "2026-11-23T11:00:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 525460,
-  "last_log_update": "2026-11-23T10:45:09.564311583Z",
+  "total_lag": 938430,
+  "last_log_update": "2026-11-23T11:00:09.406389399Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3363,6 +3363,23 @@
    "registered_at": "2026-11-23T10:10:43.241Z",
    "registrar": "CloudFlare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "sudo2root.net",
+   "label": "sudo2root",
+   "matched_suffix": "2root",
+   "public_suffix": "net",
+   "hosted": false,
+   "first_seen": "2026-11-23T10:52:46.495466759Z",
+   "names": [
+    "sudo2root.net"
+   ],
+   "log": "GoDaddy Aquamarine2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 7.393466759,
+   "registered_at": "2026-01-31T04:12:37Z",
+   "registrar": "Wild West Domains, LLC",
+   "verdict": "existing"
   }
  ]
 }
