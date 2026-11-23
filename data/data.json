@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:45:19Z",
+ "generated_at": "2026-11-23T14:01:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 744951,
-  "last_log_update": "2026-11-23T13:45:09.593227241Z",
+  "total_lag": 1189598,
+  "last_log_update": "2026-11-23T14:01:09.516030108Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3416,6 +3416,42 @@
    "registered_at": "2024-02-16T22:23:13Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "existing"
+  },
+  {
+   "domain": "react2shell.io",
+   "label": "react2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "io",
+   "hosted": false,
+   "first_seen": "2026-11-23T13:48:36.670757667Z",
+   "names": [
+    "*.react2shell.io",
+    "react2shell.io"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 3.059757667,
+   "verdict": "unknown"
+  },
+  {
+   "domain": "really2shell.com",
+   "label": "really2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T13:57:14.545196778Z",
+   "names": [
+    "*.really2shell.com",
+    "really2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 3.5611967780000002,
+   "registered_at": "2026-11-23T13:55:02Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 4
   }
  ]
 }
