@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:01:19Z",
+ "generated_at": "2026-11-23T14:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1189598,
-  "last_log_update": "2026-11-23T14:01:09.516030108Z",
+  "total_lag": 752684,
+  "last_log_update": "2026-11-23T14:15:09.461351864Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3452,6 +3452,66 @@
    "verdict": "bulk",
    "base_verdict": "new",
    "bulk_group_size": 4
+  },
+  {
+   "domain": "isitreally2shell.com",
+   "label": "isitreally2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T13:58:19.045025355Z",
+   "names": [
+    "*.isitreally2shell.com",
+    "isitreally2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.121025355,
+   "registered_at": "2026-11-23T13:56:09Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 4
+  },
+  {
+   "domain": "actually2shell.com",
+   "label": "actually2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T13:59:23.465428502Z",
+   "names": [
+    "*.actually2shell.com",
+    "actually2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.600428502,
+   "registered_at": "2026-11-23T13:57:10Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 4
+  },
+  {
+   "domain": "not2shell.com",
+   "label": "not2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T14:07:57.572288992Z",
+   "names": [
+    "*.not2shell.com",
+    "not2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.703288992,
+   "registered_at": "2026-11-23T14:05:48Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5
   }
  ]
 }
