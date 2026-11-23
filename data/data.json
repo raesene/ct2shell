@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T20:15:19Z",
+ "generated_at": "2026-11-23T20:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 571227,
-  "last_log_update": "2026-11-23T20:15:09.652576076Z",
+  "total_lag": 583754,
+  "last_log_update": "2026-11-23T20:30:09.641126095Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3632,6 +3632,40 @@
    "base_verdict": "new",
    "bulk_group_size": 6,
    "bulk_registrar": "Porkbun LLC"
+  },
+  {
+   "domain": "brain2shell.pages.dev",
+   "label": "brain2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "pages.dev",
+   "hosted": true,
+   "first_seen": "2026-11-23T20:14:54.765148689Z",
+   "names": [
+    "*.brain2shell.pages.dev",
+    "brain2shell.pages.dev"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 1.841148689,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
+  },
+  {
+   "domain": "brain2shell.com",
+   "label": "brain2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T20:20:54.88157896Z",
+   "names": [
+    "brain2shell.com"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 1.84157896,
+   "registered_at": "2026-11-19T03:03:37Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
