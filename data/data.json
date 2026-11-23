@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T04:01:19Z",
+ "generated_at": "2026-11-23T04:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 468119,
-  "last_log_update": "2026-11-23T04:01:09.653447803Z",
+  "total_lag": 62981,
+  "last_log_update": "2026-11-23T04:15:09.65247886Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3290,6 +3290,42 @@
    "detection_delay_sec": 3.826623959,
    "registered_at": "2026-11-23T03:22:45Z",
    "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+   "verdict": "new"
+  },
+  {
+   "domain": "bluetooth2shell.com",
+   "label": "bluetooth2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T04:11:40.634178929Z",
+   "names": [
+    "*.bluetooth2shell.com",
+    "bluetooth2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.235178929,
+   "registered_at": "2026-11-23T04:09:31Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "notepad2shell.com",
+   "label": "notepad2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T04:11:50.576441482Z",
+   "names": [
+    "*.notepad2shell.com",
+    "notepad2shell.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.365441482,
+   "registered_at": "2026-11-23T04:09:41Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
