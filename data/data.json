@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:30:19Z",
+ "generated_at": "2026-11-23T12:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 722371,
-  "last_log_update": "2026-11-23T12:30:09.653760508Z",
+  "total_lag": 750255,
+  "last_log_update": "2026-11-23T12:45:09.517943044Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3396,6 +3396,25 @@
    "detection_delay_sec": 1.832227058,
    "registered_at": "2010-12-07T01:35:13Z",
    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+   "verdict": "existing"
+  },
+  {
+   "domain": "mat4shell.com",
+   "label": "mat4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T12:26:08.726249559Z",
+   "names": [
+    "*.www.fmir.mat4shell.com",
+    "mat4shell.com",
+    "www.fmir.mat4shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 0.801249559,
+   "registered_at": "2024-02-16T22:23:13Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "existing"
   }
  ]
