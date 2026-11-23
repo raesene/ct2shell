@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:00:18Z",
+ "generated_at": "2026-11-23T12:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1419341,
-  "last_log_update": "2026-11-23T12:00:09.652275942Z",
+  "total_lag": 793916,
+  "last_log_update": "2026-11-23T12:15:09.629161038Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3379,6 +3379,23 @@
    "detection_delay_sec": 7.393466759,
    "registered_at": "2026-01-31T04:12:37Z",
    "registrar": "Wild West Domains, LLC",
+   "verdict": "existing"
+  },
+  {
+   "domain": "z4root.com",
+   "label": "z4root",
+   "matched_suffix": "4root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-23T12:07:35.530227058Z",
+   "names": [
+    "z4root.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "ZeroSSL GmbH ZeroSSL ECC DV SSL CA 2",
+   "detection_delay_sec": 1.832227058,
+   "registered_at": "2010-12-07T01:35:13Z",
+   "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
    "verdict": "existing"
   }
  ]
