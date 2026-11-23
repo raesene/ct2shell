@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:15:19Z",
+ "generated_at": "2026-11-23T10:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 300507,
-  "last_log_update": "2026-11-23T10:15:09.590034343Z",
+  "total_lag": 327643,
+  "last_log_update": "2026-11-23T10:30:19.643503298Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3344,6 +3344,24 @@
    "detection_delay_sec": 2.704522172,
    "registered_at": "2026-11-23T07:52:39Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "user2shell.dev",
+   "label": "user2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "dev",
+   "hosted": false,
+   "first_seen": "2026-11-23T10:12:56.999765133Z",
+   "names": [
+    "*.user2shell.dev",
+    "user2shell.dev"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 0.817765133,
+   "registered_at": "2026-11-23T10:10:43.241Z",
+   "registrar": "CloudFlare, Inc.",
    "verdict": "new"
   }
  ]
