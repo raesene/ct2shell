@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T20:45:19Z",
+ "generated_at": "2026-11-23T21:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 695350,
-  "last_log_update": "2026-11-23T20:45:09.615273925Z",
+  "total_lag": 1155178,
+  "last_log_update": "2026-11-23T21:00:09.632602661Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3666,6 +3666,24 @@
    "registered_at": "2026-11-19T03:03:37Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "ab12root.workers.dev",
+   "label": "ab12root",
+   "matched_suffix": "2root",
+   "public_suffix": "workers.dev",
+   "hosted": true,
+   "first_seen": "2026-11-23T20:49:55.311968379Z",
+   "names": [
+    "*.ab12root.workers.dev",
+    "ab12root.workers.dev"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.707968379,
+   "crtsh_cert_count": 92,
+   "crtsh_earliest_not_before": "2023-07-01T00:00:00Z",
+   "verdict": "existing"
   }
  ]
 }
