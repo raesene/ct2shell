@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T12:15:19Z",
+ "generated_at": "2026-11-24T12:30:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 84337,
-  "last_log_update": "2026-11-24T12:15:09.656387361Z",
+  "total_lag": 125603,
+  "last_log_update": "2026-11-24T12:30:09.624419617Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3810,6 +3810,24 @@
    "crtsh_cert_count": 147,
    "crtsh_earliest_not_before": "2018-01-14T01:09:21Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "telnet2shell.com",
+   "label": "telnet2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T12:20:10.505493988Z",
+   "names": [
+    "*.telnet2shell.com",
+    "telnet2shell.com"
+   ],
+   "log": "IPng Networks Halloumi2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 2.465493988,
+   "registered_at": "2026-11-19T04:41:46Z",
+   "registrar": "Porkbun LLC",
+   "verdict": "new"
   }
  ]
 }
