@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T09:30:19Z",
+ "generated_at": "2026-11-24T09:45:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 56055,
-  "last_log_update": "2026-11-24T09:30:09.661166034Z",
+  "total_lag": 171401,
+  "last_log_update": "2026-11-24T09:45:09.661920662Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3772,6 +3772,23 @@
    "detection_delay_sec": 2.329509411,
    "registered_at": "2026-11-01T01:58:34Z",
    "registrar": "Dynadot Inc",
+   "verdict": "new"
+  },
+  {
+   "domain": "shirudo2shell.com",
+   "label": "shirudo2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T09:40:13.357139311Z",
+   "names": [
+    "shirudo2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 3.966139311,
+   "registered_at": "2026-11-24T09:32:46Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
