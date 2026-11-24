@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:45:19Z",
+ "generated_at": "2026-11-24T16:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 237570,
-  "last_log_update": "2026-11-24T15:45:09.633790143Z",
+  "total_lag": 714090,
+  "last_log_update": "2026-11-24T16:00:09.662893911Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3859,6 +3859,23 @@
    "log": "DigiCert Wyvern2027h1",
    "issuer": "Gandi SAS GandiCert",
    "detection_delay_sec": 1.9128398610000001,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
+  },
+  {
+   "domain": "roof2root.ie",
+   "label": "roof2root",
+   "matched_suffix": "2root",
+   "public_suffix": "ie",
+   "hosted": false,
+   "first_seen": "2026-11-24T15:52:10.89495039Z",
+   "names": [
+    "roof2root.ie",
+    "www.roof2root.ie"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 1.7969503900000001,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
   }
