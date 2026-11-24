@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:00:19Z",
+ "generated_at": "2026-11-24T15:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 602257,
-  "last_log_update": "2026-11-24T15:00:09.636131672Z",
+  "total_lag": 154221,
+  "last_log_update": "2026-11-24T15:15:09.62460053Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3843,6 +3843,22 @@
    "log": "Let's Encrypt Sycamore2027h1",
    "issuer": "SSL Corporation Cloudflare TLS Issuing ECC CA 4",
    "detection_delay_sec": 0.846018405,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
+  },
+  {
+   "domain": "swarm2shell.io",
+   "label": "swarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "io",
+   "hosted": false,
+   "first_seen": "2026-11-24T15:02:49.192839861Z",
+   "names": [
+    "swarm2shell.io"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.9128398610000001,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
   }
