@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T03:00:19Z",
+ "generated_at": "2026-11-24T03:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1413058,
-  "last_log_update": "2026-11-24T03:00:09.640979994Z",
+  "total_lag": 839250,
+  "last_log_update": "2026-11-24T03:15:09.596872661Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3701,6 +3701,23 @@
    "detection_delay_sec": 0.787715122,
    "registered_at": "2026-11-19T12:47:27Z",
    "registrar": "Gandi SAS",
+   "verdict": "new"
+  },
+  {
+   "domain": "jensen2shell.com",
+   "label": "jensen2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T02:57:34.241860641Z",
+   "names": [
+    "jensen2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 2.864860641,
+   "registered_at": "2026-11-24T00:08:53Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
