@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T05:00:19Z",
+ "generated_at": "2026-11-24T05:15:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 614305,
-  "last_log_update": "2026-11-24T05:00:09.654359552Z",
+  "total_lag": 324887,
+  "last_log_update": "2026-11-24T05:15:09.556726244Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3719,6 +3719,24 @@
    "registered_at": "2026-11-24T00:08:53Z",
    "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "nl2shell.com",
+   "label": "nl2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T04:58:30.082140551Z",
+   "names": [
+    "*.nl2shell.com",
+    "nl2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 1.158140551,
+   "registered_at": "2026-04-01T04:54:55Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "existing"
   }
  ]
 }
