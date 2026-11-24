@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T13:15:19Z",
+ "generated_at": "2026-11-24T13:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 82227,
-  "last_log_update": "2026-11-24T13:15:09.320831839Z",
+  "total_lag": 41124,
+  "last_log_update": "2026-11-24T13:30:09.658190641Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3828,6 +3828,23 @@
    "registered_at": "2026-11-19T04:41:46Z",
    "registrar": "Porkbun LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "darkforest-node2shell.pages.dev",
+   "label": "darkforest-node2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "pages.dev",
+   "hosted": true,
+   "first_seen": "2026-11-24T13:17:41.770018405Z",
+   "names": [
+    "*.darkforest-node2shell.pages.dev",
+    "darkforest-node2shell.pages.dev"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "SSL Corporation Cloudflare TLS Issuing ECC CA 4",
+   "detection_delay_sec": 0.846018405,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
   }
  ]
 }
