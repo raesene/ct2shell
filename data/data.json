@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T05:15:18Z",
+ "generated_at": "2026-11-24T05:30:18Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 324887,
-  "last_log_update": "2026-11-24T05:15:09.556726244Z",
+  "total_lag": 364839,
+  "last_log_update": "2026-11-24T05:30:09.640980324Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3736,6 +3736,24 @@
    "detection_delay_sec": 1.158140551,
    "registered_at": "2026-04-01T04:54:55Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "existing"
+  },
+  {
+   "domain": "apec2022root.workers.dev",
+   "label": "apec2022root",
+   "matched_suffix": "2root",
+   "public_suffix": "workers.dev",
+   "hosted": true,
+   "first_seen": "2026-11-24T05:20:30.615192129Z",
+   "names": [
+    "*.apec2022root.workers.dev",
+    "apec2022root.workers.dev"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.117192129,
+   "crtsh_cert_count": 106,
+   "crtsh_earliest_not_before": "2023-03-21T00:00:00Z",
    "verdict": "existing"
   }
  ]
