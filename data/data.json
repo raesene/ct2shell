@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T21:15:19Z",
+ "generated_at": "2026-11-24T21:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 376655,
-  "last_log_update": "2026-11-24T21:15:09.532977907Z",
+  "total_lag": 377681,
+  "last_log_update": "2026-11-24T21:30:09.581251172Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3897,6 +3897,44 @@
    "registrar": "Dynadot Inc",
    "crtsh_cert_count": 6,
    "crtsh_earliest_not_before": "2025-11-24T22:43:11Z",
+   "verdict": "existing"
+  },
+  {
+   "domain": "nexus4root.com",
+   "label": "nexus4root",
+   "matched_suffix": "4root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T21:25:44.12449794Z",
+   "names": [
+    "*.nexus4root.com",
+    "nexus4root.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 4.59349794,
+   "registered_at": "2026-11-24T20:33:26Z",
+   "registrar": "Tucows Domains Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "crabbby4shell.info",
+   "label": "crabbby4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "info",
+   "hosted": false,
+   "first_seen": "2026-11-24T21:25:44.935189776Z",
+   "names": [
+    "*.crabbby4shell.info",
+    "crabbby4shell.info"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.779189776,
+   "registered_at": "2025-11-24T09:33:27.168Z",
+   "registrar": "Dynadot Inc",
+   "crtsh_cert_count": 6,
+   "crtsh_earliest_not_before": "2025-11-24T22:43:12Z",
    "verdict": "existing"
   }
  ]
