@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T09:00:19Z",
+ "generated_at": "2026-11-24T09:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 568176,
-  "last_log_update": "2026-11-24T09:00:09.605608385Z",
+  "total_lag": 63671,
+  "last_log_update": "2026-11-24T09:15:09.659739576Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3755,6 +3755,24 @@
    "crtsh_cert_count": 106,
    "crtsh_earliest_not_before": "2023-03-21T00:00:00Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "windows2shell.com",
+   "label": "windows2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T09:08:35.254509411Z",
+   "names": [
+    "windows2shell.com",
+    "www.windows2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YR1",
+   "detection_delay_sec": 2.329509411,
+   "registered_at": "2026-11-01T01:58:34Z",
+   "registrar": "Dynadot Inc",
+   "verdict": "new"
   }
  ]
 }
