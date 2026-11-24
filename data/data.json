@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T10:15:19Z",
+ "generated_at": "2026-11-24T10:31:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 71911,
-  "last_log_update": "2026-11-24T10:15:09.644116785Z",
+  "total_lag": 108773,
+  "last_log_update": "2026-11-24T10:31:09.624402955Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3790,6 +3790,26 @@
    "registered_at": "2026-11-24T09:32:46Z",
    "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "z4root.download",
+   "label": "z4root",
+   "matched_suffix": "4root",
+   "public_suffix": "download",
+   "hosted": false,
+   "first_seen": "2026-11-24T10:23:49.474356777Z",
+   "names": [
+    "www.z4root.download",
+    "z4root.download"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.393356777,
+   "registered_at": "2018-01-06T17:44:16Z",
+   "registrar": "Porkbun",
+   "crtsh_cert_count": 147,
+   "crtsh_earliest_not_before": "2018-01-14T01:09:21Z",
+   "verdict": "existing"
   }
  ]
 }
