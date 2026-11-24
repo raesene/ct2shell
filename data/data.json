@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T00:00:19Z",
+ "generated_at": "2026-11-24T00:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1715196,
-  "last_log_update": "2026-11-24T00:00:19.596413055Z",
+  "total_lag": 1314430,
+  "last_log_update": "2026-11-24T00:15:09.459185839Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3684,6 +3684,24 @@
    "crtsh_cert_count": 92,
    "crtsh_earliest_not_before": "2023-07-01T00:00:00Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "predict2shell.com",
+   "label": "predict2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T00:08:54.711715122Z",
+   "names": [
+    "*.predict2shell.com",
+    "predict2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 0.787715122,
+   "registered_at": "2026-11-19T12:47:27Z",
+   "registrar": "Gandi SAS",
+   "verdict": "new"
   }
  ]
 }
