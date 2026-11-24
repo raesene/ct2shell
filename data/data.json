@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:00:19Z",
+ "generated_at": "2026-11-24T22:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1026338,
-  "last_log_update": "2026-11-24T22:00:09.550782253Z",
+  "total_lag": 531621,
+  "last_log_update": "2026-11-24T22:15:09.594971728Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3936,6 +3936,24 @@
    "crtsh_cert_count": 6,
    "crtsh_earliest_not_before": "2025-11-24T22:43:12Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "noun2shell.com",
+   "label": "noun2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-24T22:04:53.380355707Z",
+   "names": [
+    "*.noun2shell.com",
+    "noun2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.598355707,
+   "registered_at": "2026-11-24T22:02:44Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
