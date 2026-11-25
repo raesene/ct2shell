@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:30:19Z",
+ "generated_at": "2026-11-25T17:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 2434668,
-  "last_log_update": "2026-11-25T17:30:09.627076518Z",
+  "total_lag": 2477477,
+  "last_log_update": "2026-11-25T17:45:19.544161232Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4148,6 +4148,57 @@
    "detection_delay_sec": 1.354674551,
    "registered_at": "2026-11-23T10:43:33.686Z",
    "registrar": "Gandi SAS",
+   "verdict": "new"
+  },
+  {
+   "domain": "covertswarm2shell.co.uk",
+   "label": "covertswarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "co.uk",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:32:55.684901417Z",
+   "names": [
+    "covertswarm2shell.co.uk"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.861901417,
+   "registered_at": "2026-11-23T10:43:33.472029Z",
+   "registrar": "Gandi",
+   "verdict": "new"
+  },
+  {
+   "domain": "swarm2shell.com",
+   "label": "swarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:37:24.991938763Z",
+   "names": [
+    "swarm2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.459938763,
+   "registered_at": "2026-11-23T10:43:33Z",
+   "registrar": "Gandi SAS",
+   "verdict": "new"
+  },
+  {
+   "domain": "swarm2shell.co.uk",
+   "label": "swarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "co.uk",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:38:25.122882295Z",
+   "names": [
+    "www.swarm2shell.co.uk"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.788882295,
+   "registered_at": "2026-11-23T10:43:36.943939Z",
+   "registrar": "Gandi",
    "verdict": "new"
   }
  ]
