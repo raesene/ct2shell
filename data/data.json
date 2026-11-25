@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T05:45:19Z",
+ "generated_at": "2026-11-25T06:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1613819,
-  "last_log_update": "2026-11-25T05:45:09.63480695Z",
+  "total_lag": 2104632,
+  "last_log_update": "2026-11-25T06:00:09.654600605Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4009,6 +4009,24 @@
    "crtsh_cert_count": 27,
    "crtsh_earliest_not_before": "2021-07-22T14:39:16Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "highway2shell.dev",
+   "label": "highway2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "dev",
+   "hosted": false,
+   "first_seen": "2026-11-25T05:56:43.449332741Z",
+   "names": [
+    "*.highway2shell.dev",
+    "highway2shell.dev"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Google Trust Services WR1",
+   "detection_delay_sec": 2.677332741,
+   "registered_at": "2026-11-19T02:22:10.481Z",
+   "registrar": "CloudFlare, Inc.",
+   "verdict": "new"
   }
  ]
 }
