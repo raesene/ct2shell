@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:45:19Z",
+ "generated_at": "2026-11-25T18:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 2477477,
-  "last_log_update": "2026-11-25T17:45:19.544161232Z",
+  "total_lag": 3161676,
+  "last_log_update": "2026-11-25T18:00:09.62925025Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4200,6 +4200,80 @@
    "registered_at": "2026-11-23T10:43:36.943939Z",
    "registrar": "Gandi",
    "verdict": "new"
+  },
+  {
+   "domain": "covertswarm2shell.com",
+   "label": "covertswarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:42:48.156416877Z",
+   "names": [
+    "www.covertswarm2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 2.039416877,
+   "registered_at": "2026-11-23T10:43:36Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 4
+  },
+  {
+   "domain": "covertswarm2shell.io",
+   "label": "covertswarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "io",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:45:16.889080298Z",
+   "names": [
+    "www.covertswarm2shell.io"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.635080298,
+   "verdict": "bulk",
+   "base_verdict": "unknown",
+   "bulk_group_size": 7
+  },
+  {
+   "domain": "covertswarm2shell.net",
+   "label": "covertswarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "net",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:47:18.847399425Z",
+   "names": [
+    "www.covertswarm2shell.net"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 2.922399425,
+   "registered_at": "2026-11-23T10:43:40Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5
+  },
+  {
+   "domain": "swarm2shell.org",
+   "label": "swarm2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "org",
+   "hosted": false,
+   "first_seen": "2026-11-25T17:55:28.533654457Z",
+   "names": [
+    "www.swarm2shell.org"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 2.908654457,
+   "registered_at": "2026-11-23T10:43:41.878Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 6
   }
  ]
 }
