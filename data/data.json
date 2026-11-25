@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:45:19Z",
+ "generated_at": "2026-11-25T20:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 3451980,
-  "last_log_update": "2026-11-25T19:45:09.624514716Z",
+  "total_lag": 4082393,
+  "last_log_update": "2026-11-25T20:00:09.645180974Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4274,6 +4274,46 @@
    "verdict": "bulk",
    "base_verdict": "new",
    "bulk_group_size": 6
+  },
+  {
+   "domain": "alice2shell.com",
+   "label": "alice2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T19:54:38.836777871Z",
+   "names": [
+    "alice2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 2.302777871,
+   "registered_at": "2026-11-25T03:56:51Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 3,
+   "bulk_registrar": "Gandi SAS"
+  },
+  {
+   "domain": "furry2shell.com",
+   "label": "furry2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T19:56:49.856687325Z",
+   "names": [
+    "furry2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.6156873250000001,
+   "registered_at": "2026-11-25T03:56:54Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5,
+   "bulk_registrar": "Gandi SAS"
   }
  ]
 }
