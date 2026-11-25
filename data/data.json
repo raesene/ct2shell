@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T03:31:19Z",
+ "generated_at": "2026-11-25T03:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1840197,
-  "last_log_update": "2026-11-25T03:31:09.612409486Z",
+  "total_lag": 1959241,
+  "last_log_update": "2026-11-25T03:45:09.650925182Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -3971,6 +3971,25 @@
    "detection_delay_sec": 5.185536968,
    "crtsh_cert_count": 0,
    "verdict": "likely_new"
+  },
+  {
+   "domain": "stories2root.ca",
+   "label": "stories2root",
+   "matched_suffix": "2root",
+   "public_suffix": "ca",
+   "hosted": false,
+   "first_seen": "2026-11-25T03:37:41.57270005Z",
+   "names": [
+    "stories2root.ca"
+   ],
+   "log": "GoDaddy Aquamarine2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 4.07070005,
+   "registered_at": "2021-07-14T14:35:54Z",
+   "registrar": "Go Daddy Domains Canada, Inc",
+   "crtsh_cert_count": 4,
+   "crtsh_earliest_not_before": "2026-02-02T03:29:51Z",
+   "verdict": "existing"
   }
  ]
 }
