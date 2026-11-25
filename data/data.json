@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T07:45:19Z",
+ "generated_at": "2026-11-25T08:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 2247908,
-  "last_log_update": "2026-11-25T07:45:19.624614942Z",
+  "total_lag": 2784066,
+  "last_log_update": "2026-11-25T08:00:09.633987894Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4027,6 +4027,24 @@
    "registered_at": "2026-11-19T02:22:10.481Z",
    "registrar": "CloudFlare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "serv404root.workers.dev",
+   "label": "serv404root",
+   "matched_suffix": "4root",
+   "public_suffix": "workers.dev",
+   "hosted": true,
+   "first_seen": "2026-11-25T07:46:57.478788646Z",
+   "names": [
+    "*.serv404root.workers.dev",
+    "serv404root.workers.dev"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.439788646,
+   "crtsh_cert_count": 13,
+   "crtsh_earliest_not_before": "2025-12-05T11:55:23Z",
+   "verdict": "existing"
   }
  ]
 }
