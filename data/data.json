@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T10:15:19Z",
+ "generated_at": "2026-11-25T10:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 3022262,
-  "last_log_update": "2026-11-25T10:15:09.616080482Z",
+  "total_lag": 3093289,
+  "last_log_update": "2026-11-25T10:30:09.629806183Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4080,6 +4080,22 @@
    "registered_at": "2026-11-25T08:40:32Z",
    "registrar": "Porkbun LLC",
    "verdict": "new"
+  },
+  {
+   "domain": "php2shell.sh",
+   "label": "php2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "sh",
+   "hosted": false,
+   "first_seen": "2026-11-25T10:25:12.568588705Z",
+   "names": [
+    "www.php2shell.sh"
+   ],
+   "log": "Sectigo Elephant2026h2",
+   "issuer": "GlobalSign nv-sa GlobalSign Atlas R46 DV TLS CA 2026 Q4",
+   "detection_delay_sec": 121.219588705,
+   "crtsh_cert_count": 0,
+   "verdict": "likely_new"
   }
  ]
 }
