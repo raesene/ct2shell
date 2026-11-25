@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:00:19Z",
+ "generated_at": "2026-11-25T20:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 4082393,
-  "last_log_update": "2026-11-25T20:00:09.645180974Z",
+  "total_lag": 3537008,
+  "last_log_update": "2026-11-25T20:15:09.640631868Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4309,6 +4309,66 @@
    "issuer": "Gandi SAS GandiCert",
    "detection_delay_sec": 1.6156873250000001,
    "registered_at": "2026-11-25T03:56:54Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5,
+   "bulk_registrar": "Gandi SAS"
+  },
+  {
+   "domain": "gay2shell.com",
+   "label": "gay2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T19:57:19.168238942Z",
+   "names": [
+    "gay2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 3.6372389419999998,
+   "registered_at": "2026-11-25T03:56:57Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5,
+   "bulk_registrar": "Gandi SAS"
+  },
+  {
+   "domain": "femboy2shell.com",
+   "label": "femboy2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T19:59:06.717674709Z",
+   "names": [
+    "femboy2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 1.620674709,
+   "registered_at": "2026-11-25T03:57:01Z",
+   "registrar": "Gandi SAS",
+   "verdict": "bulk",
+   "base_verdict": "new",
+   "bulk_group_size": 5,
+   "bulk_registrar": "Gandi SAS"
+  },
+  {
+   "domain": "pronouns2shell.com",
+   "label": "pronouns2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-25T19:59:46.676272731Z",
+   "names": [
+    "pronouns2shell.com"
+   ],
+   "log": "Let's Encrypt Sycamore2027h1",
+   "issuer": "Gandi SAS GandiCert",
+   "detection_delay_sec": 0.751272731,
+   "registered_at": "2026-11-25T04:05:57Z",
    "registrar": "Gandi SAS",
    "verdict": "bulk",
    "base_verdict": "new",
