@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:01:19Z",
+ "generated_at": "2026-11-26T00:15:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 3645953,
-  "last_log_update": "2026-11-26T00:01:09.607739236Z",
+  "total_lag": 3338534,
+  "last_log_update": "2026-11-26T00:15:09.662681987Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4409,6 +4409,23 @@
    "detection_delay_sec": 4.584874861,
    "registered_at": "2026-11-25T21:25:12Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "node4shell.com",
+   "label": "node4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T00:04:28.858485666Z",
+   "names": [
+    "www.node4shell.com"
+   ],
+   "log": "GoDaddy Aquamarine2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 4.155485666,
+   "registered_at": "2026-11-17T23:42:34Z",
+   "registrar": "GoDaddy.com, LLC",
    "verdict": "new"
   }
  ]
