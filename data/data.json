@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:45:19Z",
+ "generated_at": "2026-11-26T14:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1983275,
-  "last_log_update": "2026-11-26T13:45:09.599446652Z",
+  "total_lag": 2613580,
+  "last_log_update": "2026-11-26T14:00:19.501668818Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4443,6 +4443,24 @@
    "issuer": "Let's Encrypt YE2",
    "detection_delay_sec": 2.548658611,
    "registered_at": "2026-11-26T10:43:03Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "toaster2shell.com",
+   "label": "toaster2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T13:48:27.362384741Z",
+   "names": [
+    "*.toaster2shell.com",
+    "toaster2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.338384741,
+   "registered_at": "2026-11-26T13:46:14Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
