@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T15:30:19Z",
+ "generated_at": "2026-11-26T15:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 2583784,
-  "last_log_update": "2026-11-26T15:30:09.622020089Z",
+  "total_lag": 2685114,
+  "last_log_update": "2026-11-26T15:45:09.641282875Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4463,6 +4463,25 @@
    "registered_at": "2026-11-26T13:46:14Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "roof2root.com",
+   "label": "roof2root",
+   "matched_suffix": "2root",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T15:32:04.613098467Z",
+   "names": [
+    "dev.roof2root.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "ZeroSSL GmbH ZeroSSL ECC DV SSL CA 2",
+   "detection_delay_sec": 5.284098467,
+   "registered_at": "2023-11-23T22:50:19Z",
+   "registrar": "Register.com - Network Solutions, LLC",
+   "crtsh_cert_count": 64,
+   "crtsh_earliest_not_before": "2024-01-03T00:00:00Z",
+   "verdict": "existing"
   }
  ]
 }
