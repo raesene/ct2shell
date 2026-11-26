@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T10:45:19Z",
+ "generated_at": "2026-11-26T11:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1404243,
-  "last_log_update": "2026-11-26T10:45:09.597033697Z",
+  "total_lag": 1762407,
+  "last_log_update": "2026-11-26T11:00:09.471650797Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4426,6 +4426,24 @@
    "detection_delay_sec": 4.155485666,
    "registered_at": "2026-11-17T23:42:34Z",
    "registrar": "GoDaddy.com, LLC",
+   "verdict": "new"
+  },
+  {
+   "domain": "nfs2shell.com",
+   "label": "nfs2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T10:45:15.070658611Z",
+   "names": [
+    "*.nfs2shell.com",
+    "nfs2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 2.548658611,
+   "registered_at": "2026-11-26T10:43:03Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
