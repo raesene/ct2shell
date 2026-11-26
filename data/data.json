@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:16:19Z",
+ "generated_at": "2026-11-26T19:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 1948527,
-  "last_log_update": "2026-11-26T19:16:09.664007269Z",
+  "total_lag": 1752061,
+  "last_log_update": "2026-11-26T19:30:09.661495433Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4482,6 +4482,42 @@
    "crtsh_cert_count": 64,
    "crtsh_earliest_not_before": "2024-01-03T00:00:00Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "turkey4shell.com",
+   "label": "turkey4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T19:14:45.427373671Z",
+   "names": [
+    "*.turkey4shell.com",
+    "turkey4shell.com"
+   ],
+   "log": "IPng Networks Gouda2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.141373671,
+   "registered_at": "2026-11-26T19:12:35Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "gravy4shell.com",
+   "label": "gravy4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-26T19:20:24.74843189Z",
+   "names": [
+    "*.gravy4shell.com",
+    "gravy4shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.01843189,
+   "registered_at": "2026-11-26T19:18:16Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
