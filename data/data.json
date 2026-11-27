@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T02:30:19Z",
+ "generated_at": "2026-11-27T02:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 58,
-  "total_lag": 419939,
-  "last_log_update": "2026-11-27T02:30:09.640191683Z",
+  "total_lag": 454481,
+  "last_log_update": "2026-11-27T02:45:09.642863609Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4537,6 +4537,26 @@
    "registrar": "Spaceship, Inc.",
    "crtsh_cert_count": 0,
    "verdict": "dormant"
+  },
+  {
+   "domain": "json4shell.org",
+   "label": "json4shell",
+   "matched_suffix": "4shell",
+   "public_suffix": "org",
+   "hosted": false,
+   "first_seen": "2026-11-27T02:38:34.459514674Z",
+   "names": [
+    "*.json4shell.org",
+    "json4shell.org"
+   ],
+   "log": "Google ParcelYard2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 1.604514674,
+   "registered_at": "2014-06-10T13:25:09.955Z",
+   "registrar": "Cloudflare, Inc.",
+   "crtsh_cert_count": 45,
+   "crtsh_earliest_not_before": "2022-07-16T17:03:26Z",
+   "verdict": "existing"
   }
  ]
 }
