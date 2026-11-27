@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:15:19Z",
+ "generated_at": "2026-11-27T04:31:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 298678,
-  "last_log_update": "2026-11-27T04:15:09.608512734Z",
+  "total_lag": 175048,
+  "last_log_update": "2026-11-27T04:31:09.630890587Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4557,6 +4557,24 @@
    "crtsh_cert_count": 45,
    "crtsh_earliest_not_before": "2022-07-16T17:03:26Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "bell2shell.com",
+   "label": "bell2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-27T04:20:07.137622292Z",
+   "names": [
+    "*.bell2shell.com",
+    "bell2shell.com"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Sectigo Limited Sectigo Public Server Authentication CA DV E36",
+   "detection_delay_sec": 1.4196222920000001,
+   "registered_at": "2026-11-27T04:17:55Z",
+   "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
   }
  ]
 }
