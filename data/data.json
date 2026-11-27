@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T22:46:19Z",
+ "generated_at": "2026-11-27T23:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 272150,
-  "last_log_update": "2026-11-27T22:46:09.614461882Z",
+  "total_lag": 704681,
+  "last_log_update": "2026-11-27T23:00:09.57935168Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4592,6 +4592,24 @@
    "registered_at": "2026-11-27T11:04:31Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "rook2root.co",
+   "label": "rook2root",
+   "matched_suffix": "2root",
+   "public_suffix": "co",
+   "hosted": false,
+   "first_seen": "2026-11-27T22:45:18.197774206Z",
+   "names": [
+    "*.rook2root.co",
+    "rook2root.co"
+   ],
+   "log": "DigiCert Sphinx2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 2.092774206,
+   "crtsh_cert_count": 76,
+   "crtsh_earliest_not_before": "2025-04-16T11:15:25Z",
+   "verdict": "existing"
   }
  ]
 }
