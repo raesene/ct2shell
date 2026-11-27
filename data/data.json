@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T17:30:19Z",
+ "generated_at": "2026-11-27T17:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 70464,
-  "last_log_update": "2026-11-27T17:30:09.657402498Z",
+  "total_lag": 150230,
+  "last_log_update": "2026-11-27T17:45:09.619528686Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4574,6 +4574,23 @@
    "detection_delay_sec": 1.4196222920000001,
    "registered_at": "2026-11-27T04:17:55Z",
    "registrar": "Cloudflare, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "sap2shell.com",
+   "label": "sap2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-27T17:40:11.052878926Z",
+   "names": [
+    "sap2shell.com"
+   ],
+   "log": "Sectigo Tiger2027h1",
+   "issuer": "GoDaddy.com GoDaddy TLS Intermediate CA DV - R1v1",
+   "detection_delay_sec": 109.132878926,
+   "registered_at": "2026-11-27T11:04:31Z",
+   "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
  ]
