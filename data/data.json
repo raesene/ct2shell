@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T09:15:19Z",
+ "generated_at": "2026-11-28T09:30:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 236505,
-  "last_log_update": "2026-11-28T09:15:09.567474743Z",
+  "total_lag": 121213,
+  "last_log_update": "2026-11-28T09:30:09.633090476Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4702,6 +4702,23 @@
    "issuer": "Let's Encrypt YE1",
    "detection_delay_sec": 2.914563465,
    "registered_at": "2026-11-18T14:22:18Z",
+   "registrar": "NameCheap, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "harness2shell.com",
+   "label": "harness2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-28T09:24:01.288557035Z",
+   "names": [
+    "www.harness2shell.com"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 3.234557035,
+   "registered_at": "2026-11-10T23:25:47Z",
    "registrar": "NameCheap, Inc.",
    "verdict": "new"
   }
