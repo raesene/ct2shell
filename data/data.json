@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T12:45:19Z",
+ "generated_at": "2026-11-28T13:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 148029,
-  "last_log_update": "2026-11-28T12:45:09.629520822Z",
+  "total_lag": 661187,
+  "last_log_update": "2026-11-28T13:00:09.598678606Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4739,6 +4739,24 @@
    "registered_at": "2026-11-18T17:18:00Z",
    "registrar": "Cloudflare, Inc.",
    "verdict": "new"
+  },
+  {
+   "domain": "k2shell.com",
+   "label": "k2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-28T12:55:20.812880701Z",
+   "names": [
+    "*.sites.k2shell.com"
+   ],
+   "log": "Geomys Tuscolo2027h1",
+   "issuer": "Let's Encrypt YE1",
+   "detection_delay_sec": 2.474880701,
+   "registered_at": "2026-10-27T17:52:56Z",
+   "registrar": "GoDaddy.com, LLC",
+   "crtsh_cert_count": 0,
+   "verdict": "dormant"
   }
  ]
 }
