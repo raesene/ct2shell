@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T10:45:19Z",
+ "generated_at": "2026-11-28T11:00:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 132519,
-  "last_log_update": "2026-11-28T10:45:09.648616668Z",
+  "total_lag": 532473,
+  "last_log_update": "2026-11-28T11:00:09.547341615Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4720,6 +4720,24 @@
    "detection_delay_sec": 3.234557035,
    "registered_at": "2026-11-10T23:25:47Z",
    "registrar": "NameCheap, Inc.",
+   "verdict": "new"
+  },
+  {
+   "domain": "chinesegirlfriend2shell.com",
+   "label": "chinesegirlfriend2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-28T10:54:55.258411302Z",
+   "names": [
+    "*.chinesegirlfriend2shell.com",
+    "chinesegirlfriend2shell.com"
+   ],
+   "log": "DigiCert Wyvern2027h1",
+   "issuer": "Google Trust Services WE1",
+   "detection_delay_sec": 2.359411302,
+   "registered_at": "2026-11-18T17:18:00Z",
+   "registrar": "Cloudflare, Inc.",
    "verdict": "new"
   }
  ]
