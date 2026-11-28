@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T02:30:19Z",
+ "generated_at": "2026-11-28T02:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 363911,
-  "last_log_update": "2026-11-28T02:30:09.525721797Z",
+  "total_lag": 333584,
+  "last_log_update": "2026-11-28T02:45:09.609014375Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4666,6 +4666,26 @@
    "registrar": "NameSilo, LLC",
    "crtsh_cert_count": 3,
    "crtsh_earliest_not_before": "2026-05-08T00:00:00Z",
+   "verdict": "existing"
+  },
+  {
+   "domain": "reach2root.in",
+   "label": "reach2root",
+   "matched_suffix": "2root",
+   "public_suffix": "in",
+   "hosted": false,
+   "first_seen": "2026-11-28T02:34:46.648000652Z",
+   "names": [
+    "strapi.reach2root.in",
+    "www.strapi.reach2root.in"
+   ],
+   "log": "Google PlumbersArms2027h1",
+   "issuer": "Let's Encrypt YR2",
+   "detection_delay_sec": 5.838000652,
+   "registered_at": "2020-02-04T08:11:38.87Z",
+   "registrar": "GoDaddy",
+   "crtsh_cert_count": 70,
+   "crtsh_earliest_not_before": "2021-07-12T17:51:56Z",
    "verdict": "existing"
   }
  ]
