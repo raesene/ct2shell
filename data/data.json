@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T00:30:18Z",
+ "generated_at": "2026-11-28T00:45:19Z",
  "suffixes": [
   "4shell",
   "2shell",
@@ -8,8 +8,8 @@
  ],
  "monitor": {
   "active_logs": 67,
-  "total_lag": 282042,
-  "last_log_update": "2026-11-28T00:30:09.644932812Z",
+  "total_lag": 445787,
+  "last_log_update": "2026-11-28T00:45:09.591726502Z",
   "since": "2026-11-19T09:03:05.65907723Z"
  },
  "records": [
@@ -4610,6 +4610,23 @@
    "crtsh_cert_count": 76,
    "crtsh_earliest_not_before": "2025-04-16T11:15:25Z",
    "verdict": "existing"
+  },
+  {
+   "domain": "aspnet2shell.com",
+   "label": "aspnet2shell",
+   "matched_suffix": "2shell",
+   "public_suffix": "com",
+   "hosted": false,
+   "first_seen": "2026-11-28T00:41:11.040772924Z",
+   "names": [
+    "www.aspnet2shell.com"
+   ],
+   "log": "Let's Encrypt Willow2027h1",
+   "issuer": "Let's Encrypt YE2",
+   "detection_delay_sec": 1.509772924,
+   "registered_at": "2026-11-18T17:12:39Z",
+   "registrar": "NameCheap, Inc.",
+   "verdict": "new"
   }
  ]
 }
